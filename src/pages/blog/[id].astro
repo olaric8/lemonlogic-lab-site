@@ -1,0 +1,40 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection, render } from "astro:content";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("blog", ({ data }) => !data.draft);
+  return posts.map((post) => ({
+    params: { id: post.id },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+---
+<BaseLayout title={post.data.title} description={post.data.description}>
+  <article class="wrap post">
+    <a class="back" href="/blog">← Back to the blog</a>
+    <div class="post-date">{post.data.pubDate.toLocaleDateString("en-GB", { month: "long", day: "numeric", year: "numeric" })}</div>
+    <h1>{post.data.title}</h1>
+    <div class="prose">
+      <Content />
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .post { padding: 48px 0 80px; max-width: 720px; }
+  .back { font-size: 0.9rem; color: var(--muted); text-decoration: none; }
+  .post-date { font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: var(--muted); margin: 24px 0 10px; }
+  .post h1 { font-size: clamp(1.9rem, 4.2vw, 2.5rem); line-height: 1.15; margin-bottom: 8px; }
+  .prose { margin-top: 34px; font-size: 1.05rem; line-height: 1.7; }
+  .prose :global(h2) {
+    font-family: 'Fraunces', serif; font-weight: 600; font-size: 1.4rem;
+    margin: 40px 0 16px;
+  }
+  .prose :global(p) { margin: 0 0 20px; color: var(--ink); }
+  .prose :global(a) { color: var(--forest); text-decoration: underline; }
+  .prose :global(hr) { border: none; border-top: 1px dashed var(--gridline-dark); margin: 40px 0; }
+</style>

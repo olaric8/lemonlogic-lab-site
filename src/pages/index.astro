@@ -1,0 +1,74 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+const posts = (await getCollection("blog", ({ data }) => !data.draft))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 3);
+---
+<BaseLayout title="Home">
+  <section class="hero wrap">
+    <h1>Practical AI &amp; automation for African SMEs.</h1>
+    <p class="sub">No jargon, no enterprise budgets — just the tools and habits that save a small business owner real hours, written by someone running five of them.</p>
+    <div class="hero-ctas">
+      <a class="btn" href="/blog">Read the blog</a>
+      <a class="btn-ghost" href="/invoice-kit">Get the Invoice Kit &nbsp;→</a>
+    </div>
+  </section>
+
+  <section class="wrap featured">
+    <div class="featured-card">
+      <div class="featured-copy">
+        <div class="kicker">Free / low-cost tools</div>
+        <h2>The SME Invoice &amp; Payment Tracker Kit</h2>
+        <p>An Excel kit that auto-calculates VAT, discounts, and totals — and tracks who's actually paid. Built from templates already used across real Nigerian businesses.</p>
+        <a class="btn" href="/invoice-kit">See how it works — ₦4,500</a>
+      </div>
+    </div>
+  </section>
+
+  {posts.length > 0 && (
+    <section class="wrap latest">
+      <h2>From the blog</h2>
+      <div class="post-list">
+        {posts.map((post) => (
+          <a class="post-row" href={`/blog/${post.id}`}>
+            <span class="post-title">{post.data.title}</span>
+            <span class="post-date">{post.data.pubDate.toLocaleDateString("en-GB", { month: "short", day: "numeric", year: "numeric" })}</span>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+</BaseLayout>
+
+<style>
+  .hero { padding: 64px 0 56px; max-width: 720px; }
+  .hero h1 { font-size: clamp(2.1rem, 4.6vw, 3.1rem); line-height: 1.12; letter-spacing: -0.01em; }
+  .hero .sub { font-size: 1.1rem; color: var(--muted); margin: 22px 0 30px; max-width: 54ch; }
+  .hero-ctas { display: flex; align-items: center; gap: 26px; flex-wrap: wrap; }
+
+  .featured { padding: 12px 0 64px; }
+  .featured-card {
+    border: 1.5px solid var(--ink); border-radius: 8px; padding: 40px;
+    background: #fff; box-shadow: 8px 8px 0 var(--lemon);
+  }
+  .featured-copy { max-width: 560px; }
+  .kicker { font-size: 0.85rem; font-weight: 600; color: var(--muted); margin-bottom: 10px; }
+  .featured-copy h2 { font-size: 1.6rem; margin-bottom: 14px; }
+  .featured-copy p { color: var(--muted); font-size: 1rem; margin: 0 0 26px; }
+
+  .latest { padding: 8px 0 72px; border-top: 1px solid var(--gridline); padding-top: 56px; }
+  .latest h2 { font-size: 1.5rem; margin-bottom: 28px; }
+  .post-list { display: flex; flex-direction: column; }
+  .post-row {
+    display: flex; justify-content: space-between; gap: 20px; padding: 18px 0;
+    border-bottom: 1px solid var(--gridline); text-decoration: none; color: var(--ink);
+  }
+  .post-title { font-weight: 600; font-size: 1.02rem; }
+  .post-date { color: var(--muted); font-size: 0.9rem; font-family: 'JetBrains Mono', monospace; white-space: nowrap; }
+
+  @media (max-width: 640px) {
+    .featured-card { padding: 26px; }
+  }
+</style>

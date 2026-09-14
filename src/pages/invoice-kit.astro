@@ -1,0 +1,312 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+<BaseLayout
+  title="SME Invoice & Payment Tracker Kit"
+  description="A ready-to-use Excel kit for Nigerian small business owners. Enter your prices — VAT, discounts, and totals calculate themselves."
+>
+<div class="ik-page">
+
+  <div class="wrap hero">
+    <div class="hero-copy">
+      <h1>The invoice does the math so you don't have to.</h1>
+      <p class="sub">A ready-to-use Excel kit for Nigerian small business owners. Enter your prices — VAT, discounts, and totals calculate themselves.</p>
+      <a class="btn" href="#pricing">Get the kit — ₦4,500</a>
+      <div class="trust-line">One-time payment. Works in Excel or Google Sheets.</div>
+    </div>
+
+    <div class="demo-wrap">
+      <div class="stamp"><span>AUTO</span><span>CALCULATED</span></div>
+      <div class="demo-card">
+        <div class="demo-label">Try it — change the numbers</div>
+
+        <div class="demo-row" style="border-bottom:none;padding-bottom:0;">
+          <div style="flex:1;"></div>
+          <div class="lbl">qty</div>
+          <div class="lbl price-lbl">price</div>
+          <div class="lbl amt-lbl">amount</div>
+        </div>
+        <div class="demo-row">
+          <input type="text" value="Website design" data-role="desc" />
+          <input type="number" min="0" value="1" class="qty-input" data-row="1" />
+          <input type="number" min="0" step="500" value="150000" class="price-input" data-row="1" />
+          <div class="amount" data-amount="1">₦150,000.00</div>
+        </div>
+        <div class="demo-row" style="border-bottom:none;">
+          <input type="text" value="Logo design" data-role="desc" />
+          <input type="number" min="0" value="1" class="qty-input" data-row="2" />
+          <input type="number" min="0" step="500" value="45000" class="price-input" data-row="2" />
+          <div class="amount" data-amount="2">₦45,000.00</div>
+        </div>
+
+        <div class="demo-foot">
+          <div class="line"><span>Subtotal</span><span class="val" data-subtotal>₦195,000.00</span></div>
+          <div class="line"><span>VAT (7.5%)</span><span class="val" data-vat>₦14,625.00</span></div>
+          <div class="total"><span>Total</span><span class="val" data-total>₦209,625.00</span></div>
+        </div>
+      </div>
+      <div class="demo-caption">This is the exact math inside the kit.</div>
+    </div>
+  </div>
+
+  <section class="problem">
+    <div class="wrap">
+      <h2>You already know this part</h2>
+      <div class="problem-list">
+        <div class="problem-item">Recalculating VAT by hand, every single invoice.</div>
+        <div class="problem-item">Trying to remember who's actually paid, from memory.</div>
+        <div class="problem-item">Sending a Word document that looks like it took five minutes — because it did.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="inside">
+    <div class="wrap">
+      <h2>What's in the kit</h2>
+      <div class="inside-grid">
+        <div class="inside-item">
+          <div class="photo"><img src="/images/shot_invoice.png" alt="Invoice template screenshot" /></div>
+          <h3>Invoice template</h3>
+          <p>Fill in your business details once. Every invoice after that takes under a minute.</p>
+        </div>
+        <div class="inside-item">
+          <div class="photo"><img src="/images/shot_quote.png" alt="Quote template screenshot" /></div>
+          <h3>Quote template</h3>
+          <p>Send a proper quotation before the client even confirms the order.</p>
+        </div>
+        <div class="inside-item">
+          <div class="photo"><img src="/images/shot_tracker.png" alt="Payment tracker screenshot" /></div>
+          <h3>Payment tracker</h3>
+          <p>One tab that always tells you what's been paid and what's still outstanding.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="proof">
+    <div class="wrap">
+      <blockquote>"Built from the same invoicing system already used across OK3D, LA AutoWorks, and Accurate Ventures — real businesses, not a template mill."</blockquote>
+    </div>
+  </section>
+
+  <section class="pricing" id="pricing">
+    <div class="wrap pricing">
+      <div class="receipt">
+        <div class="kicker">Get the kit</div>
+        <div class="price">₦4,500</div>
+        <div class="price-note">One-time payment — not a subscription.</div>
+        <hr />
+        <ul>
+          <li><span class="check">✓</span> Invoice template</li>
+          <li><span class="check">✓</span> Quote template</li>
+          <li><span class="check">✓</span> Payment tracker dashboard</li>
+          <li><span class="check">✓</span> Read-me instructions</li>
+        </ul>
+        <a class="btn" href="#">Get the kit — ₦4,500</a>
+        <div class="trust-line">Works in Excel or Google Sheets. Yours to edit however you like.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq">
+    <div class="wrap">
+      <h2>Questions</h2>
+      <div style="max-width:680px;">
+        <div class="faq-item">
+          <h3>Do I need Excel?</h3>
+          <p>Excel or Google Sheets both work. No special software required.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Can I change the VAT rate?</h3>
+          <p>Yes — it's one editable cell. Set it to 0% if you're not VAT-registered.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Is this a subscription?</h3>
+          <p>No. Pay once, use it for as long as you run your business.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Can I use it for more than one business?</h3>
+          <p>Yes — duplicate the file for each business you run.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+</BaseLayout>
+
+<script is:inline>
+(function(){
+  function formatNaira(n){
+    n = Math.round(n);
+    var neg = n < 0; if(neg){ n = -n; }
+    var s = String(n);
+    var parts = [];
+    while(s.length > 3){ parts.unshift(s.slice(-3)); s = s.slice(0, -3); }
+    parts.unshift(s);
+    return (neg ? '-' : '') + '₦' + parts.join(',') + '.00';
+  }
+
+  var VAT_RATE = 0.075;
+
+  function recalc(){
+    var subtotal = 0;
+    for(var i=1;i<=2;i++){
+      var qty = parseFloat(document.querySelector('.qty-input[data-row="'+i+'"]').value) || 0;
+      var price = parseFloat(document.querySelector('.price-input[data-row="'+i+'"]').value) || 0;
+      var amt = qty * price;
+      subtotal += amt;
+      document.querySelector('.amount[data-amount="'+i+'"]').textContent = formatNaira(amt);
+    }
+    var vat = subtotal * VAT_RATE;
+    var total = subtotal + vat;
+    document.querySelector('[data-subtotal]').textContent = formatNaira(subtotal);
+    document.querySelector('[data-vat]').textContent = formatNaira(vat);
+    var totalEl = document.querySelector('[data-total]');
+    totalEl.textContent = formatNaira(total);
+    totalEl.classList.remove('pulse');
+    void totalEl.offsetWidth;
+    totalEl.classList.add('pulse');
+    setTimeout(function(){ totalEl.classList.remove('pulse'); }, 150);
+  }
+
+  var inputs = document.querySelectorAll('.qty-input, .price-input');
+  for(var j=0;j<inputs.length;j++){
+    inputs[j].addEventListener('input', recalc);
+  }
+  recalc();
+})();
+</script>
+
+<style>
+  .ik-page {
+    background-image:
+      linear-gradient(var(--gridline) 1px, transparent 1px),
+      linear-gradient(90deg, var(--gridline) 1px, transparent 1px);
+    background-size: 34px 34px;
+  }
+
+  .hero { padding: 56px 0 80px; }
+  .hero::after { content: ""; display: table; clear: both; }
+  .hero-copy { float: left; width: 54%; }
+  .hero .demo-wrap { float: right; width: 41%; position: relative; }
+
+  .hero h1 { font-size: clamp(2.15rem, 4.4vw, 3.1rem); line-height: 1.1; letter-spacing: -0.01em; }
+  .hero .sub { font-size: 1.08rem; color: var(--muted); max-width: 46ch; margin: 22px 0 30px; }
+  .trust-line { font-size: 0.85rem; color: var(--muted); margin-top: 12px; }
+
+  .demo-card {
+    background: #fff; border: 1.5px solid var(--ink); border-radius: 8px;
+    padding: 26px 26px 22px; box-shadow: 8px 8px 0 var(--lemon); position: relative; z-index: 2;
+  }
+  .demo-label { font-size: 0.85rem; font-weight: 600; color: var(--muted); margin-bottom: 16px; }
+  .demo-row { display: flex; gap: 10px; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--gridline); }
+  .demo-row input[type=text] {
+    flex: 1; min-width: 0; border: none; background: transparent; font-family: 'Inter', sans-serif;
+    font-size: 0.92rem; color: var(--ink); padding: 4px 2px;
+  }
+  .demo-row input[type=number] {
+    width: 44px; border: none; border-bottom: 1px dashed var(--gridline-dark); background: transparent;
+    font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; text-align: center; padding: 4px 0; color: var(--ink);
+  }
+  .demo-row .price-input { width: 88px; text-align: right; }
+  .demo-row .amount { width: 96px; text-align: right; font-family: 'JetBrains Mono', monospace; font-size: 0.9rem; font-weight: 600; }
+  .demo-row .lbl { font-size: 0.72rem; color: var(--muted); width: 44px; text-align: center; }
+  .demo-row .lbl.price-lbl { width: 88px; text-align: right; }
+  .demo-row .lbl.amt-lbl { width: 96px; text-align: right; }
+  .demo-foot { margin-top: 6px; }
+  .demo-foot .line { display: flex; justify-content: space-between; padding: 7px 0; font-size: 0.92rem; }
+  .demo-foot .line .val { font-family: 'JetBrains Mono', monospace; }
+  .demo-foot .total {
+    background: var(--lemon); margin-top: 8px; padding: 12px 14px; border-radius: 5px;
+    display: flex; justify-content: space-between; align-items: baseline; font-weight: 700; font-size: 1.15rem;
+  }
+  .demo-foot .total .val { font-family: 'JetBrains Mono', monospace; transition: transform .12s ease; }
+  .demo-foot .total .val.pulse { transform: scale(1.06); }
+  .demo-caption { font-size: 0.8rem; color: var(--muted); margin-top: 14px; text-align: center; }
+
+  .stamp {
+    position: absolute; top: -20px; right: 18px; width: 96px; height: 96px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center; text-align: center;
+    font-family: 'Inter', sans-serif; font-weight: 700; font-size: 0.62rem; letter-spacing: 0.045em;
+    color: var(--forest); background: var(--paper);
+    border: 2px solid var(--forest);
+    box-shadow: 0 0 0 4px var(--paper), 0 0 0 5.5px var(--forest);
+    transform: rotate(-10deg) scale(0);
+    z-index: 3;
+    animation: stampIn .5s cubic-bezier(.34,1.56,.64,1) .5s forwards;
+  }
+  .stamp span { display: block; }
+  @keyframes stampIn {
+    0% { transform: rotate(-10deg) scale(0); opacity: 0; }
+    70% { transform: rotate(-10deg) scale(1.12); opacity: 1; }
+    100% { transform: rotate(-10deg) scale(1); opacity: 1; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .stamp { animation: none; transform: rotate(-10deg) scale(1); }
+    .demo-foot .total .val.pulse { transform: none; }
+  }
+
+  .ik-page section { padding: 72px 0; border-top: 1px solid var(--gridline); }
+  .ik-page section h2 { font-size: clamp(1.5rem, 2.6vw, 2rem); margin-bottom: 34px; }
+
+  .problem-list { max-width: 640px; }
+  .problem-item { border-left: 3px solid var(--lemon); padding: 2px 0 2px 20px; margin-bottom: 26px; font-size: 1.05rem; }
+  .problem-item:last-child { margin-bottom: 0; }
+
+  .inside-grid::after { content: ""; display: table; clear: both; }
+  .inside-item { float: left; width: 30.66%; margin-right: 4%; }
+  .inside-item:nth-child(3) { margin-right: 0; }
+  .inside-item .photo {
+    height: 210px; overflow: hidden; border: 1px solid var(--gridline-dark); border-radius: 4px;
+    background: #fff; box-shadow: 5px 5px 0 var(--gridline); margin-bottom: 20px;
+  }
+  .inside-item:nth-child(1) .photo { transform: rotate(-1.4deg); }
+  .inside-item:nth-child(2) .photo { transform: rotate(1.1deg); }
+  .inside-item:nth-child(3) .photo { transform: rotate(-0.8deg); }
+  .inside-item .photo img { width: 100%; height: 100%; object-fit: cover; object-position: top center; }
+  .inside-item h3 { font-family: 'Inter', sans-serif; font-size: 1.05rem; font-weight: 700; margin: 0 0 8px; }
+  .inside-item p { font-size: 0.95rem; color: var(--muted); margin: 0; }
+
+  .proof blockquote {
+    margin: 0; font-family: 'Fraunces', serif; font-style: italic; font-weight: 500;
+    font-size: clamp(1.2rem, 2.2vw, 1.55rem); line-height: 1.45; max-width: 800px; color: var(--ink);
+  }
+
+  .pricing { display: flex; justify-content: center; }
+  .receipt {
+    position: relative; max-width: 400px; width: 100%; border: 1.5px dashed var(--ink); border-radius: 4px;
+    padding: 38px 34px; background: #fff;
+  }
+  .receipt::before, .receipt::after {
+    content: ""; position: absolute; top: 50%; transform: translateY(-50%);
+    width: 26px; height: 26px; border-radius: 50%; background: var(--paper);
+    border: 1.5px dashed var(--ink);
+  }
+  .receipt::before { left: -14px; }
+  .receipt::after { right: -14px; }
+  .receipt .kicker { font-size: 0.9rem; font-weight: 600; color: var(--muted); margin-bottom: 6px; }
+  .receipt .price { font-family: 'JetBrains Mono', monospace; font-size: 2.6rem; font-weight: 700; line-height: 1; }
+  .receipt .price-note { font-size: 0.85rem; color: var(--muted); margin-top: 8px; }
+  .receipt hr { border: none; border-top: 1px dashed var(--gridline-dark); margin: 22px 0; }
+  .receipt ul { list-style: none; margin: 0 0 26px; padding: 0; }
+  .receipt li { font-size: 0.95rem; padding: 5px 0; display: flex; gap: 10px; }
+  .receipt li .check { color: var(--forest); font-weight: 700; }
+  .receipt .btn { width: 100%; text-align: center; }
+  .receipt .trust-line { text-align: center; }
+
+  .faq-item { padding-bottom: 26px; margin-bottom: 26px; border-bottom: 1px solid var(--gridline); }
+  .faq-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+  .faq-item h3 { font-family: 'Inter', sans-serif; font-size: 1.02rem; font-weight: 700; margin: 0 0 6px; }
+  .faq-item p { font-size: 0.95rem; color: var(--muted); margin: 0; }
+
+  @media (max-width: 860px) {
+    .hero { padding: 40px 0 56px; }
+    .hero-copy { float: none; width: 100%; }
+    .hero .demo-wrap { float: none; width: 100%; margin-top: 40px; }
+    .inside-item { float: none; width: 100%; margin-right: 0; margin-bottom: 32px; }
+    .inside-item:last-child { margin-bottom: 0; }
+    .ik-page section { padding: 52px 0; }
+    .stamp { width: 80px; height: 80px; font-size: 0.55rem; right: 8px; }
+  }
+</style>

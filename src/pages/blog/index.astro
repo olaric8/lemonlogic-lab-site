@@ -1,0 +1,41 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+const posts = (await getCollection("blog", ({ data }) => !data.draft))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+<BaseLayout title="Blog" description="Practical AI and automation guidance for African SMEs.">
+  <section class="wrap header">
+    <h1>The Blog</h1>
+    <p>Practical automation and AI guidance for African SMEs — no jargon, no enterprise budgets.</p>
+  </section>
+
+  <section class="wrap list">
+    {posts.map((post) => (
+      <a class="post-card" href={`/blog/${post.id}`}>
+        <span class="post-date">{post.data.pubDate.toLocaleDateString("en-GB", { month: "short", day: "numeric", year: "numeric" })}</span>
+        <h2>{post.data.title}</h2>
+        <p>{post.data.description}</p>
+      </a>
+    ))}
+    {posts.length === 0 && <p class="empty">First post coming soon.</p>}
+  </section>
+</BaseLayout>
+
+<style>
+  .header { padding: 56px 0 40px; }
+  .header h1 { font-size: clamp(1.9rem, 4vw, 2.6rem); margin-bottom: 14px; }
+  .header p { color: var(--muted); font-size: 1.05rem; margin: 0; max-width: 56ch; }
+
+  .list { padding-bottom: 72px; display: flex; flex-direction: column; }
+  .post-card {
+    display: block; padding: 30px 0; border-top: 1px solid var(--gridline);
+    text-decoration: none; color: var(--ink);
+  }
+  .post-card:last-child { border-bottom: 1px solid var(--gridline); }
+  .post-date { font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: var(--muted); }
+  .post-card h2 { font-size: 1.4rem; margin: 10px 0 10px; }
+  .post-card p { color: var(--muted); font-size: 0.98rem; margin: 0; max-width: 62ch; }
+  .empty { color: var(--muted); padding: 20px 0; }
+</style>
