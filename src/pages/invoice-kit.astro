@@ -205,14 +205,22 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     flex: 1; min-width: 0; border: none; background: transparent; font-family: 'Inter', sans-serif;
     font-size: 0.92rem; color: var(--ink); padding: 4px 2px;
   }
-  .demo-row input[type=number] {
-    width: 44px; border: none; border-bottom: 1px dashed var(--gridline-dark); background: transparent;
-    font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; text-align: center; padding: 4px 0; color: var(--ink);
+    .demo-row input[type=number] {
+    flex: 0 0 auto;
+    width: 52px; border: none; border-bottom: 1px dashed var(--gridline-dark); background: transparent;
+    font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; text-align: center; padding: 4px 4px; color: var(--ink);
+    box-sizing: content-box;
+    -moz-appearance: textfield; appearance: textfield;
   }
-  .demo-row .price-input { width: 88px; text-align: right; }
+  .demo-row input[type=number]::-webkit-outer-spin-button,
+  .demo-row input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none; margin: 0;
+  }
+  .demo-row .qty-input { width: 40px; }
+  .demo-row .price-input { width: 120px; text-align: right; padding-right: 6px; }
   .demo-row .amount { width: 96px; text-align: right; font-family: 'JetBrains Mono', monospace; font-size: 0.9rem; font-weight: 600; }
   .demo-row .lbl { font-size: 0.72rem; color: var(--muted); width: 44px; text-align: center; }
-  .demo-row .lbl.price-lbl { width: 88px; text-align: right; }
+  .demo-row .lbl.price-lbl { width: 108px; text-align: right; }
   .demo-row .lbl.amt-lbl { width: 96px; text-align: right; }
   .demo-foot { margin-top: 6px; }
   .demo-foot .line { display: flex; justify-content: space-between; padding: 7px 0; font-size: 0.92rem; }
@@ -301,6 +309,9 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   .faq-item p { font-size: 0.95rem; color: var(--muted); margin: 0; }
 
   @media (max-width: 860px) {
+        .demo-row .price-input { width: 96px; }
+    .demo-row .lbl.price-lbl { width: 96px; }
+    .demo-row .amount, .demo-row .lbl.amt-lbl { width: 84px; }
     .hero { padding: 40px 0 56px; }
     .hero-copy { float: none; width: 100%; }
     .hero .demo-wrap { float: none; width: 100%; margin-top: 40px; }
