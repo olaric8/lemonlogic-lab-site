@@ -7,7 +7,7 @@ pubDate: 2026-09-16
 If you run a small business in Nigeria, VAT is the tax you touch most often — on the sales you make, on the invoices your suppliers send you, on almost every receipt. And yet it's the one most owners quietly fudge: adding 7.5% in their head, hoping the total is right, unsure whether they even need to charge it.
 
 This guide fixes that. By the end you'll know exactly how to calculate VAT, how to show it correctly on an invoice, and what changed under the 2026 tax reforms — in plain language, with real Naira examples.
-
+<img src="/images/vat-infographic.webp" alt="How to calculate VAT in Nigeria at 7.5 percent: add 7.5% on top of a price, or extract VAT from a VAT-inclusive total by multiplying by 7.5 over 107.5, with a sample invoice showing subtotal, VAT and total." width="1080" height="1080" loading="lazy" />
 ## First, a quick heads-up: FIRS is now the NRS
 
 If you filed anything before 2026, you dealt with the **Federal Inland Revenue Service (FIRS)**. As of 1 January 2026, that agency has a new name: the **Nigeria Revenue Service (NRS)**. It's part of the biggest shake-up of Nigerian tax administration in a generation. Your existing Tax Identification Number (TIN) still works — but the letters, portals, and forms now say NRS. Throughout this guide, that's who we mean.
