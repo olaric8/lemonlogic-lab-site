@@ -1,7 +1,7 @@
 ---
 title: "5 Free Automations Every Nigerian SME Should Set Up This Month"
 description: "Practical, no-budget automations for Nigerian small business owners — starting with the ones that save the most time for the least effort."
-pubDate: 2026-09-21
+pubDate: 2026-09-15
 ---
 
 Most "automation" advice aimed at small businesses assumes you've got a budget and an IT person. You don't need either for these five. Each one takes under an hour to set up, costs nothing, and saves you time every single week from then on.
