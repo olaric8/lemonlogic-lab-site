@@ -15,7 +15,7 @@ This guide breaks down how to write an invoice that gets you paid — the elemen
 Reframe it in your mind: an invoice's job is to make paying you the easiest possible thing for your client to do. Every unclear detail is a reason to set it aside "for later." Every missing piece is a follow-up message you'll have to send. So the goal isn't just to *record* what you're owed — it's to design a document that gets actioned fast.
 
 With that in mind, here's the anatomy.
-
+<img src="/images/invoice-anatomy.webp" alt="Anatomy of an invoice that gets paid: 9 elements including invoice number, your details, client details, issue date, due date, line items, total due, bank details, and payment terms." width="1080" height="1080" loading="lazy" />![alt text](image.png)
 ## The anatomy of an invoice that gets paid
 
 **1. The word "Invoice" and a unique invoice number.** State clearly that it's an invoice — not a "note" or a quote. Give every invoice a unique number (INV-001, INV-002, and so on). This isn't bureaucracy: numbered invoices look organised, make follow-ups precise ("regarding invoice INV-014"), and keep your own records clean.
