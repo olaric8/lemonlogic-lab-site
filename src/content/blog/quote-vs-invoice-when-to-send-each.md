@@ -1,7 +1,7 @@
 ---
 title: "Quote vs Invoice: What's the Difference and When to Send Each"
 description: "A quote isn't an invoice, and an invoice isn't a quote. Mixing them up costs money and confuses clients. Here's when to send each, and why it matters."
-pubDate: 2026-09-18
+pubDate: 2026-09-19
 ---
 
 If you've been in business for any length of time, you've probably sent both — and you might have used them interchangeably. A lot of Nigerian business owners do. And it costs them.

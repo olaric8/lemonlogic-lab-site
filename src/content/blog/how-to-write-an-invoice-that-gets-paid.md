@@ -1,7 +1,7 @@
 ---
 title: "How to Write an Invoice That Actually Gets You Paid (Nigerian Small Business Guide)"
 description: "A professional invoice isn't just a bill — it's the tool that decides whether you get paid on time or chased for months. Here's how to write one that leaves no room for delay."
-pubDate: 2026-09-18
+pubDate: 2026-09-19
 ---
 
 You did the work. You delivered. You sent the invoice. And then... nothing. A week passes. Two. You send a "just following up" message and feel slightly embarrassed doing it.
