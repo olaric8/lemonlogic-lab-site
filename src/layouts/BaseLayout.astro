@@ -1,4 +1,4 @@
----
+﻿---
 interface Props {
   title: string;
   description?: string;
@@ -10,7 +10,7 @@ const { title, description = "Practical AI and automation guidance for African S
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{title} · LemonLogic Lab</title>
+  <title>{title} Â· LemonLogic Lab</title>
   <meta name="description" content={description} />
   <link rel="canonical" href={`https://lemonlogiclab.com${Astro.url.pathname}`} />
   <!-- Open Graph / Social Media Meta Tags -->
@@ -23,7 +23,7 @@ const { title, description = "Practical AI and automation guidance for African S
 <meta name="twitter:title" content={title || "LemonLogic Lab"} />
 <meta name="twitter:description" content={description || "Resources for Nigerian SMEs on invoicing, VAT, and getting paid on time."} />
 <meta name="twitter:image" content="https://lemonlogiclab.com/images/og-image.png" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍋</text></svg>" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>ðŸ‹</text></svg>" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,600;1,500&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" />
@@ -68,7 +68,28 @@ const { title, description = "Practical AI and automation guidance for African S
     }
     a:focus-visible, button:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
   </style>
-</head>
+
+  <!-- Schema Markup for Blog Posts -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": title,
+    "description": description,
+    "image": "https://lemonlogiclab.com/images/og-image.png",
+    "datePublished": pubDate ? pubDate.toISOString() : new Date().toISOString(),
+    "author": {
+      "@type": "Organization",
+      "name": "LemonLogic Lab",
+      "url": "https://lemonlogiclab.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "LemonLogic Lab"
+    }
+  }
+  </script>
+  </head>
 <body>
   <header class="site-header">
     <div class="wrap site-header__inner">
@@ -86,7 +107,7 @@ const { title, description = "Practical AI and automation guidance for African S
 
   <footer class="site-footer">
     <div class="wrap site-footer__inner">
-      <span>LemonLogic Lab · practical AI &amp; automation for African SMEs</span>
+      <span>LemonLogic Lab Â· practical AI &amp; automation for African SMEs</span>
       <a href="https://lemonlogicai.com" class="btn-ghost">lemonlogicai.com</a>
     </div>
   </footer>
@@ -106,3 +127,4 @@ const { title, description = "Practical AI and automation guidance for African S
   </style>
 </body>
 </html>
+
