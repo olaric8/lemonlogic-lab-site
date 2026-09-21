@@ -72,3 +72,4 @@ That's exactly what the [SME Invoice & Payment Tracker Kit](https://selar.com/6w
 
 *This guide is general business information, not tax or legal advice. Nigeria's tax and e-invoicing rules are changing through 2026â€“2028; confirm your specific obligations with the NRS or a qualified accountant.*
 
+

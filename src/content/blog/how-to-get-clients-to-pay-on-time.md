@@ -119,3 +119,4 @@ The best way to avoid all of this? [Send a clear invoice with a firm due date](/
 
 *This guide is general business advice for Nigerian SMEs. Always know your legal rights around late payments in your jurisdiction, and escalate to a lawyer if a client refuses to pay a legitimate invoice.*
 
+
