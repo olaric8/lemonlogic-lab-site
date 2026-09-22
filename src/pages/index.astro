@@ -27,7 +27,17 @@ const posts = (await getCollection("blog", ({ data }) => !data.draft))
       </div>
     </div>
   </section>
+  </section>
 
+  <section class="wrap who-for">
+    <h2>Who this is for</h2>
+    <p>Built for Nigerian freelancers, agencies, consultants, vendors, small shops, and service businesses that need professional invoices without paying for complicated accounting software.</p>
+    <div class="trust-strip">
+      Used by real Nigerian businesses &middot; Works in Excel and Google Sheets &middot; One-time payment &middot; Naira-ready &middot; No subscription
+    </div>
+  </section>
+
+  {posts.length > 0 && (
   {posts.length > 0 && (
     <section class="wrap latest">
       <h2>From the blog</h2>
@@ -41,6 +51,12 @@ const posts = (await getCollection("blog", ({ data }) => !data.draft))
       </div>
     </section>
   )}
+  <section class="wrap final-cta">
+    <h2>Stop rebuilding invoices from scratch.</h2>
+    <p>Get the SME Invoice &amp; Payment Tracker Kit and start sending cleaner invoices today.</p>
+    <a class="btn" href="/invoice-kit">Get the kit — ₦4,500</a>
+  </section>
+</BaseLayout>
 </BaseLayout>
 
 <style>
@@ -58,7 +74,14 @@ const posts = (await getCollection("blog", ({ data }) => !data.draft))
   .kicker { font-size: 0.85rem; font-weight: 600; color: var(--muted); margin-bottom: 10px; }
   .featured-copy h2 { font-size: 1.6rem; margin-bottom: 14px; }
   .featured-copy p { color: var(--muted); font-size: 1rem; margin: 0 0 26px; }
-
+  .who-for { padding: 12px 0 56px; border-top: 1px solid var(--gridline); padding-top: 48px; }
+  .who-for h2 { font-size: 1.5rem; margin-bottom: 16px; }
+  .who-for p { color: var(--muted); font-size: 1.05rem; max-width: 64ch; margin: 0 0 24px; }
+  .trust-strip {
+    font-size: 0.92rem; font-weight: 600; color: var(--ink);
+    padding: 16px 20px; border: 1.5px solid var(--ink); border-radius: 8px;
+    background: var(--lemon); display: inline-block;
+  }
   .latest { padding: 8px 0 72px; border-top: 1px solid var(--gridline); padding-top: 56px; }
   .latest h2 { font-size: 1.5rem; margin-bottom: 28px; }
   .post-list { display: flex; flex-direction: column; }
@@ -68,7 +91,12 @@ const posts = (await getCollection("blog", ({ data }) => !data.draft))
   }
   .post-title { font-weight: 600; font-size: 1.02rem; }
   .post-date { color: var(--muted); font-size: 0.9rem; font-family: 'JetBrains Mono', monospace; white-space: nowrap; }
-
+  .final-cta {
+    padding: 48px 0 72px; border-top: 1px solid var(--gridline); padding-top: 56px;
+    text-align: center;
+  }
+  .final-cta h2 { font-size: 1.7rem; margin-bottom: 14px; }
+  .final-cta p { color: var(--muted); font-size: 1.05rem; margin: 0 0 28px; }
   @media (max-width: 640px) {
     .featured-card { padding: 26px; }
   }
