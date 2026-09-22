@@ -1,7 +1,8 @@
-﻿---
+---
 title: "Do You Actually Need to Register for VAT? A Simple Decision Guide"
 description: "VAT registration isn't one-size-fits-all in Nigeria. Here's how to figure out if you're obligated, what changed in 2026, and what it actually costs to register."
 pubDate: 2026-09-20
+category: "VAT & Tax"
 ---
 
 Here's the anxiety every small business owner in Nigeria has about VAT: *Do I actually have to register?*

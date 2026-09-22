@@ -1,7 +1,8 @@
-﻿---
+---
 title: "How Much Should You Charge? A Pricing Guide for Nigerian Small Businesses"
 description: "Pricing anxiety is universal. Here's a framework for setting prices that cover your costs, reward your work, and actually stick."
 pubDate: 2026-09-20
+category: "Tools & Pricing"
 ---
 
 Here's the thing almost every small business owner in Nigeria wrestles with: *How much should I actually charge?*

@@ -1,7 +1,8 @@
-﻿---
+---
 title: "What to Do When a Client Refuses to Pay (Nigeria Edition)"
 description: "A client won't pay. Here's how to handle it professionally, protect your business, and know when to escalate — without destroying the relationship or your reputation."
 pubDate: 2026-09-21
+category: "Getting Paid"
 ---
 
 You sent the invoice. You delivered the work. You've followed up twice. And then silence — or worse, a message saying "I'll pay you next month" followed by three months of next months.

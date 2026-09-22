@@ -1,7 +1,8 @@
-﻿---
+---
 title: "Free vs Paid Invoicing Tools for Nigerian SMEs: Which Should You Use?"
 description: "Google Sheets or Wave? Paid software or spreadsheet? Here's how to choose the right invoicing tool for your Nigerian business — and what each option costs."
 pubDate: 2026-09-21
+category: "Tools & Pricing"
 ---
 
 There's a moment every small business owner in Nigeria reaches: the spreadsheet breaks.
