@@ -2,8 +2,17 @@
 interface Props {
   title: string;
   description?: string;
+  isArticle?: boolean;
+  pubDate?: Date;
+  author?: string;
 }
-const { title, description = "Practical AI and automation guidance for African SMEs, from LemonLogic Lab." } = Astro.props;
+const {
+  title,
+  description = "Practical AI and automation guidance for African SMEs, from LemonLogic Lab.",
+  isArticle = false,
+  pubDate,
+  author = "Eric",
+} = Astro.props;
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -68,7 +77,13 @@ const { title, description = "Practical AI and automation guidance for African S
     }
     a:focus-visible, button:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
   </style>
+  </style>
 
+  <!-- Cloudflare Web Analytics -->
+  <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "f65fe9ea76d24bfbac0d3b2f4fdb2782"}'></script>
+  <!-- End Cloudflare Web Analytics -->
+
+  <!-- Schema Markup for Organization -->
   <!-- Schema Markup for Organization -->
   <script type="application/ld+json">
   {
@@ -80,6 +95,32 @@ const { title, description = "Practical AI and automation guidance for African S
     "description": "Practical AI and automation guidance for African SMEs"
   }
   </script>
+
+  {isArticle && (
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": title,
+      "description": description,
+      "author": {
+        "@type": "Person",
+        "name": author
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "LemonLogic Lab",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lemonlogiclab.com/images/og-image.png"
+        }
+      },
+      "datePublished": pubDate ? pubDate.toISOString() : undefined,
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": Astro.url.href
+      }
+    })} />
+  )}
   </head>
 <body>
   <header class="site-header">
