@@ -71,5 +71,12 @@ That's exactly what the [SME Invoice & Payment Tracker Kit](https://selar.com/6w
 ---
 
 *This guide is general business information, not tax or legal advice. Nigeria's tax and e-invoicing rules are changing through 2026â€“2028; confirm your specific obligations with the NRS or a qualified accountant.*
+---
 
+## About the author
 
+**Written by Eric**
+
+Founder of [LemonLogic Lab](/about) and operator of LA AutoWorks (20+ years), OK3D, Andstan Solar, and other Nigerian ventures. Builder of practical systems for SMEs.
+
+[Read more about LemonLogic Lab](/about)

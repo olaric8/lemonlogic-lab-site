@@ -193,3 +193,12 @@ Choose based on what you value more: saving money or saving time. If you invoice
 ---
 
 *This guide covers invoicing tools available to Nigerian businesses as of September 2026. Tool features and pricing change; check each tool's website for current details.*
+---
+
+## About the author
+
+**Written by Eric**
+
+Founder of [LemonLogic Lab](/about) and operator of LA AutoWorks (20+ years), OK3D, Andstan Solar, and other Nigerian ventures. Builder of practical systems for SMEs.
+
+[Read more about LemonLogic Lab](/about)
