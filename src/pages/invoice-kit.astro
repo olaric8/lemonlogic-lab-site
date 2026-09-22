@@ -1,4 +1,4 @@
----
+﻿---
 import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 <BaseLayout
@@ -35,7 +35,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         <div class="demo-row" style="border-bottom:none;">
           <input type="text" value="Logo design" data-role="desc" />
           <input type="number" min="0" value="1" class="qty-input" data-row="2" />
-          <input type="number" min="0" step="500" value="45000" class="price-input" data-row="2" />
+          <input type="number" min="0" step="500" value="45000" class="price-input"data-row="2" />
           <div class="amount" data-amount="2">₦45,000.00</div>
         </div>
 
@@ -65,17 +65,17 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       <h2>What's in the kit</h2>
       <div class="inside-grid">
         <div class="inside-item">
-          <div class="photo"><img src="/images/shot_invoice.png" alt="Invoice template screenshot" /></div>
+          <div class="photo"><img src="/images/shot_invoice.png" alt="Invoice template showing Nigerian naira totals, VAT, client details, and payment terms" /></div>
           <h3>Invoice template</h3>
           <p>Fill in your business details once. Every invoice after that takes under a minute.</p>
         </div>
         <div class="inside-item">
-          <div class="photo"><img src="/images/shot_quote.png" alt="Quote template screenshot" /></div>
+          <div class="photo"><img src="/images/shot_quote.png" alt="Quote template for Nigerian small businesses with itemized pricing" /></div>
           <h3>Quote template</h3>
           <p>Send a proper quotation before the client even confirms the order.</p>
         </div>
         <div class="inside-item">
-          <div class="photo"><img src="/images/shot_tracker.png" alt="Payment tracker screenshot" /></div>
+          <div class="photo"><img src="/images/shot_tracker.png" alt="Payment tracker dashboard showing paid and outstanding invoices" /></div>
           <h3>Payment tracker</h3>
           <p>One tab that always tells you what's been paid and what's still outstanding.</p>
         </div>
@@ -86,6 +86,50 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   <section class="proof">
     <div class="wrap">
       <blockquote>"Built from the same invoicing system already used across OK3D, LA AutoWorks, and Accurate Ventures — real businesses, not a template mill."</blockquote>
+    </div>
+  </section>
+
+  <section class="delivery">
+    <div class="wrap">
+      <h2>What you get</h2>
+      <div class="delivery-grid">
+        <div class="delivery-col">
+          <h3>Included in the kit</h3>
+          <ul class="check-list">
+            <li>A ready-to-use Excel/Google Sheets file — no setup headaches</li>
+            <li>Automatic VAT calculation (7.5%) on every invoice</li>
+            <li>Payment status tracking — see who paid and who hasn't at a glance</li>
+            <li>Professional invoice template ready to send immediately</li>
+            <li>Works completely offline — no subscription, no internet required after download</li>
+          </ul>
+        </div>
+        <div class="delivery-col">
+          <h3>How delivery works</h3>
+          <p>After payment on Selar, you'll receive an instant download link by email within 5 minutes — no waiting, no manual approval.</p>
+          <h3>Support &amp; updates</h3>
+          <p>Email hello@lemonlogicai.com or WhatsApp +234 814 466 4481 — we respond within 48 hours. Improvements to the kit are free for existing customers.</p>
+          <p><a href="/refund-policy">14-day refund policy</a> — no questions asked.</p>
+        </div>
+      </div>
+
+      <div class="who-for-grid">
+        <div class="who-for-col">
+          <h3>Built for</h3>
+          <ul class="check-list">
+            <li>Freelancers and consultants sending 5–50 invoices a month</li>
+            <li>Small business owners tired of manual VAT calculations</li>
+            <li>Service providers who want to look professional without accounting software</li>
+          </ul>
+        </div>
+        <div class="who-for-col">
+          <h3>Not built for</h3>
+          <ul class="x-list">
+            <li>Large businesses needing multi-user accounting systems</li>
+            <li>Companies requiring bank or payment gateway integration</li>
+            <li>Full tax compliance reporting (talk to an accountant for that)</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -223,7 +267,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   .demo-row .lbl.price-lbl { width: 108px; text-align: right; }
   .demo-row .lbl.amt-lbl { width: 96px; text-align: right; }
   .demo-foot { margin-top: 6px; }
-  .demo-foot .line { display: flex; justify-content: space-between; padding: 7px 0; font-size: 0.92rem; }
+  .demo-foot .line { display: flex; justify-content: space-between; padding: 7px 0;font-size: 0.92rem; }
   .demo-foot .line .val { font-family: 'JetBrains Mono', monospace; }
   .demo-foot .total {
     background: var(--lemon); margin-top: 8px; padding: 12px 14px; border-radius: 5px;
@@ -256,7 +300,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   }
 
   .ik-page section { padding: 72px 0; border-top: 1px solid var(--gridline); }
-  .ik-page section h2 { font-size: clamp(1.5rem, 2.6vw, 2rem); margin-bottom: 34px; }
+  .ik-page section h2 { font-size: clamp(1.5rem, 2.6vw, 2rem); margin-bottom: 34px;}
 
   .problem-list { max-width: 640px; }
   .problem-item { border-left: 3px solid var(--lemon); padding: 2px 0 2px 20px; margin-bottom: 26px; font-size: 1.05rem; }
@@ -280,6 +324,21 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     margin: 0; font-family: 'Fraunces', serif; font-style: italic; font-weight: 500;
     font-size: clamp(1.2rem, 2.2vw, 1.55rem); line-height: 1.45; max-width: 800px; color: var(--ink);
   }
+
+  .delivery-grid { display: flex; gap: 48px; flex-wrap: wrap; margin-bottom: 40px; }
+  .delivery-col { flex: 1; min-width: 260px; }
+  .delivery-col h3 { font-size: 1.05rem; font-weight: 700; margin: 0 0 12px; }
+  .delivery-col p { font-size: 0.95rem; color: var(--muted); margin: 0 0 20px; }
+  .delivery-col a { color: var(--ink); font-weight: 600; }
+
+  .check-list, .x-list { list-style: none; margin: 0; padding: 0; }
+  .check-list li, .x-list li { font-size: 0.95rem; padding: 6px 0 6px 26px; position: relative; color: var(--ink); }
+  .check-list li::before { content: "✓"; position: absolute; left: 0; color: var(--forest); font-weight: 700; }
+  .x-list li::before { content: "✕"; position: absolute; left: 0; color: var(--muted); font-weight: 700; }
+
+  .who-for-grid { display: flex; gap: 48px; flex-wrap: wrap; padding-top: 32px; border-top: 1px solid var(--gridline); }
+  .who-for-col { flex: 1; min-width: 260px; }
+  .who-for-col h3 { font-size: 1.05rem; font-weight: 700; margin: 0 0 12px; }
 
   .pricing { display: flex; justify-content: center; }
   .receipt {
@@ -305,11 +364,11 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
   .faq-item { padding-bottom: 26px; margin-bottom: 26px; border-bottom: 1px solid var(--gridline); }
   .faq-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
-  .faq-item h3 { font-family: 'Inter', sans-serif; font-size: 1.02rem; font-weight: 700; margin: 0 0 6px; }
+  .faq-item h3 { font-family: 'Inter', sans-serif; font-size: 1.02rem; font-weight:700; margin: 0 0 6px; }
   .faq-item p { font-size: 0.95rem; color: var(--muted); margin: 0; }
 
   @media (max-width: 860px) {
-        .demo-row .price-input { width: 96px; }
+    .demo-row .price-input { width: 96px; }
     .demo-row .lbl.price-lbl { width: 96px; }
     .demo-row .amount, .demo-row .lbl.amt-lbl { width: 84px; }
     .hero { padding: 40px 0 56px; }
@@ -319,5 +378,6 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     .inside-item:last-child { margin-bottom: 0; }
     .ik-page section { padding: 52px 0; }
     .stamp { width: 80px; height: 80px; font-size: 0.55rem; right: 8px; }
+    .delivery-grid, .who-for-grid { flex-direction: column; gap: 32px; }
   }
 </style>
