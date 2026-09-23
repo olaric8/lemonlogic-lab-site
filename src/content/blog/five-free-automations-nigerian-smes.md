@@ -9,13 +9,13 @@ Most "automation" advice aimed at small businesses assumes you've got a budget a
 
 ## 1. Stop building invoices from scratch
 
-If you're still typing out invoices in Word or WhatsApp every time you make a sale, that's the first thing to fix — it's the automation with the fastest payback. A simple spreadsheet with the math already built in (quantity Ã— price, VAT, totals) turns a five-minute task into a thirty-second one, and it looks more professional to the client too.
+If you're still typing out invoices in Word or WhatsApp every time you make a sale, that's the first thing to fix — it's the automation with the fastest payback. A simple spreadsheet with the math already built in (quantity × price, VAT, totals) turns a five-minute task into a thirty-second one, and it looks more professional to the client too.
 
 This is exactly the gap our [SME Invoice & Payment Tracker Kit](/invoice-kit) fills — you fill in the numbers, it does the arithmetic.
 
 ## 2. Turn on WhatsApp Business auto-replies
 
-If customers message you outside working hours, WhatsApp Business (free) lets you set an automatic away message and a greeting message for first-time contacts. Go to Settings â†’ Business Tools â†’ Away Message. Takes five minutes, and it means nobody messages you and hears nothing back for six hours.
+If customers message you outside working hours, WhatsApp Business (free) lets you set an automatic away message and a greeting message for first-time contacts. Go to Settings → Business Tools → Away Message. Takes five minutes, and it means nobody messages you and hears nothing back for six hours.
 
 While you're in there, set up the Catalog feature too — it turns your WhatsApp into a browsable product list instead of a chat thread full of "how much is this."
 

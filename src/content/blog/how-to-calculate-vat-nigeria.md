@@ -43,11 +43,11 @@ There are only two calculations you ever need. Master these and you'll never fum
 
 This is the most common. You have a price, and you need to add 7.5% to it.
 
-**Formula:** `VAT = Price Ã— 7.5%` (or `Price Ã— 0.075`)
+**Formula:** `VAT = Price × 7.5%` (or `Price × 0.075`)
 
 **Example:** You're invoicing a client ₦150,000 for a website design.
 
-- VAT = ₦150,000 Ã— 0.075 = **₦11,250**
+- VAT = ₦150,000 × 0.075 = **₦11,250**
 - Total the client pays = ₦150,000 + ₦11,250 = **₦161,250**
 
 On the invoice, you show the ₦150,000, the ₦11,250 VAT as a separate line, and the ₦161,250 total. Never bury the VAT inside the price with no breakdown — a proper invoice always shows it separately.
@@ -58,12 +58,12 @@ Sometimes you're handed a figure that *already includes* VAT — say a customer 
 
 You can't just take 7.5% of ₦107,500 — that's a classic mistake. Because the ₦107,500 represents 107.5% of the real price, you work backwards.
 
-**Formula:** `VAT = Total Ã— (7.5 Ã· 107.5)`
+**Formula:** `VAT = Total × (7.5 ÷ 107.5)`
 
 **Example:** A total of ₦107,500 that includes VAT.
 
-- VAT = ₦107,500 Ã— (7.5 Ã· 107.5) = **₦7,500**
-- The actual price (before VAT) = ₦107,500 âˆ’ ₦7,500 = **₦100,000**
+- VAT = ₦107,500 × (7.5 ÷ 107.5) = **₦7,500**
+- The actual price (before VAT) = ₦107,500 − ₦7,500 = **₦100,000**
 
 ### Putting it together on a real invoice
 
@@ -113,14 +113,16 @@ One important 2026 change: **e-invoicing is now mandatory for VAT-registered bus
 ## Common VAT mistakes to avoid
 
 - **Spending the VAT you collect.** It isn't yours. Set it aside the moment it lands.
-- **Taking 7.5% of a VAT-inclusive total.** Use the Ã·107.5 method instead.
+- **Taking 7.5% of a VAT-inclusive total.** Use the ÷107.5 method instead.
 - **Hiding VAT inside the price** with no breakdown — it looks unprofessional and blocks your customers from reclaiming input VAT.
 - **Forgetting to file a nil return.** No sales still means a return is due if you're registered.
 - **Assuming last year's rules still apply.** Under a name change and a full reform, check your position with the NRS.
 
+For the full list of what a compliant invoice needs beyond just VAT, see the [12-point invoice checklist](/blog/invoice-template-checklist).
+
 ## The bottom line
 
-VAT in Nigeria is 7.5%, the agency is now the NRS, and the calculation itself is simple once you know the two formulas: add 7.5% on top, or pull it out with Ã·107.5. The rest is doing it consistently and showing it clearly on every invoice.
+VAT in Nigeria is 7.5%, the agency is now the NRS, and the calculation itself is simple once you know the two formulas: add 7.5% on top, or pull it out with ÷107.5. The rest is doing it consistently and showing it clearly on every invoice.
 
 If you'd rather not run that maths by hand every time — invoice after invoice, client after client — that's exactly the tedium the [SME Invoice & Payment Tracker Kit](https://selar.com/6w04585s89) removes. Enter your prices; it does the VAT, the discounts, and the totals for you, in Excel or Google Sheets you already have.
 

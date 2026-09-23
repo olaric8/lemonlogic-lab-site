@@ -98,6 +98,8 @@ Each one alone might cost you a few days or a few hundred naira. But add them up
 
 That's money your business needs *now*, not three months from now.
 
+Want the complete list in one place? Here's the [full 12-point invoice checklist](/blog/invoice-template-checklist) covering everything an invoice needs.
+
 ## Get this right, once
 
 The reason these mistakes compound is because you're solving them on an ad-hoc basis for every invoice. What you really need is a **system** — a template that's right once, and then you use it every time. No decisions, no variations, no mistakes.

@@ -52,7 +52,7 @@ A good invoice includes everything from the quote **plus**:
 
 The goal of an invoice is to **collect payment**. It's a legal record of what's owed and when.
 
-## The timeline: quote â†’ agreement â†’ invoice â†’ payment
+## The timeline: quote → agreement → invoice → payment
 
 Here's how they fit together in a real project:
 
