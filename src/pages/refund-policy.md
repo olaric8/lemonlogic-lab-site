@@ -1,4 +1,5 @@
-﻿---
+---
+layout: "../layouts/MarkdownLayout.astro"
 title: "Refund Policy"
 description: "Refund eligibility, process, and terms for the SME Invoice & Payment Tracker Kit."
 ---

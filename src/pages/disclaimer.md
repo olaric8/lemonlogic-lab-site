@@ -1,4 +1,5 @@
-﻿---
+---
+layout: "../layouts/MarkdownLayout.astro"
 title: "Disclaimer"
 description: "Important information about the educational nature of LemonLogic Lab content."
 ---

@@ -1,0 +1,32 @@
+cd "C:\Projects\lemonlogic-lab-site"
+
+$layoutContent = @'
+---
+import BaseLayout from "./BaseLayout.astro";
+const { frontmatter } = Astro.props;
+---
+<BaseLayout title={frontmatter.title} description={frontmatter.description}>
+  <article class="wrap markdown-page">
+    <slot />
+  </article>
+</BaseLayout>
+
+<style>
+  .markdown-page { padding: 48px 0 80px; max-width: 720px; }
+  .markdown-page :global(h1) { font-family: "Fraunces", serif; font-weight: 600; font-size: clamp(1.9rem, 4.2vw, 2.5rem); margin: 0 0 24px; line-height: 1.15; }
+  .markdown-page :global(h2) { font-family: "Fraunces", serif; font-weight: 600; font-size: 1.4rem; margin: 40px 0 16px; }
+  .markdown-page :global(h3) { font-size: 1.1rem; font-weight: 700; margin: 28px 0 12px; }
+  .markdown-page :global(p) { margin: 0 0 20px; line-height: 1.7; font-size: 1.02rem; }
+  .markdown-page :global(ul), .markdown-page :global(ol) { margin: 0 0 20px; padding-left: 24px; line-height: 1.7; }
+  .markdown-page :global(li) { margin-bottom: 8px; }
+  .markdown-page :global(strong) { font-weight: 700; }
+  .markdown-page :global(a) { color: var(--forest); text-decoration: underline; }
+  .markdown-page :global(hr) { border: none; border-top: 1px dashed var(--gridline-dark); margin: 40px 0; }
+</style>
+'@
+
+$utf8NoBom = New-Object System.Text.UTF8Encoding($false)
+New-Item -ItemType Directory -Path "src\layouts" -Force | Out-Null
+[System.IO.File]::WriteAllText("src\layouts\MarkdownLayout.astro", $layoutContent, $utf8NoBom)
+
+Write-Output "MarkdownLayout.astro created"

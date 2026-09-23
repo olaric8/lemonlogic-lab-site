@@ -1,4 +1,5 @@
-﻿---
+---
+layout: "../layouts/MarkdownLayout.astro"
 title: "Terms of Use"
 description: "Terms and conditions for using LemonLogic Lab and the SME Invoice & Payment Tracker Kit."
 ---

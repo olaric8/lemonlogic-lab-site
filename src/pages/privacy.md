@@ -1,4 +1,5 @@
-﻿---
+---
+layout: "../layouts/MarkdownLayout.astro"
 title: "Privacy Policy"
 description: "How LemonLogic Lab collects, uses, and protects your data."
 ---
