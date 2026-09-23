@@ -22,7 +22,10 @@ const { Content } = await render(post);
 >
   <article class="wrap post">
     <a class="back" href="/blog">← Back to the blog</a>
-    <div class="post-date">{post.data.pubDate.toLocaleDateString("en-GB", { month: "long", day: "numeric", year: "numeric" })}</div>
+    <div class="post-meta">
+      <span class="post-category">{post.data.category}</span>
+      <span class="post-date">{post.data.pubDate.toLocaleDateString("en-GB", { month: "long", day: "numeric", year: "numeric" })}</span>
+    </div>
     <h1>{post.data.title}</h1>
     <div class="prose">
       <Content />
@@ -33,7 +36,12 @@ const { Content } = await render(post);
 <style>
   .post { padding: 48px 0 80px; max-width: 720px; }
   .back { font-size: 0.9rem; color: var(--muted); text-decoration: none; }
-  .post-date { font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: var(--muted); margin: 24px 0 10px; }
+  .post-meta { display: flex; align-items: center; gap: 12px; margin: 24px 0 10px; }
+  .post-category {
+    font-size: 0.78rem; font-weight: 700; color: var(--forest);
+    text-transform: uppercase; letter-spacing: 0.03em;
+  }
+  .post-date { font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: var(--muted); }
   .post h1 { font-size: clamp(1.9rem, 4.2vw, 2.5rem); line-height: 1.15; margin-bottom: 8px; }
   .prose { margin-top: 34px; font-size: 1.05rem; line-height: 1.7; }
   .prose :global(h2) {
