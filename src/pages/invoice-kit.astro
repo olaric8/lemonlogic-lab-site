@@ -1,4 +1,4 @@
-﻿---
+---
 import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 <BaseLayout
@@ -56,6 +56,19 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         <div class="problem-item">Recalculating VAT by hand, every single invoice.</div>
         <div class="problem-item">Trying to remember who's actually paid, from memory.</div>
         <div class="problem-item">Sending a Word document that looks like it took five minutes — because it did.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="demo-video">
+    <div class="wrap">
+      <h2>See it in action</h2>
+      <p class="demo-video-intro">A 60-second walkthrough of the kit in use â€” from opening the template to tracking a payment.</p>
+      <div class="video-frame">
+        <video controls preload="metadata" poster="/images/shot_invoice.png">
+          <source src="/videos/invoice-kit-demo.mp4" type="video/mp4" />
+          Your browser doesn't support embedded video. <a href="/videos/invoice-kit-demo.mp4">Download the demo instead</a>.
+        </video>
       </div>
     </div>
   </section>
@@ -305,6 +318,14 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   .problem-list { max-width: 640px; }
   .problem-item { border-left: 3px solid var(--lemon); padding: 2px 0 2px 20px; margin-bottom: 26px; font-size: 1.05rem; }
   .problem-item:last-child { margin-bottom: 0; }
+
+  .demo-video { text-align: center; }
+  .demo-video-intro { color: var(--muted); font-size: 1.02rem; max-width: 60ch; margin: 0 auto 32px; }
+  .video-frame {
+    max-width: 800px; margin: 0 auto; border: 1.5px solid var(--ink); border-radius: 8px;
+    overflow: hidden; box-shadow: 8px 8px 0 var(--lemon); background: #000;
+  }
+  .video-frame video { width: 100%; display: block; }
 
   .inside-grid::after { content: ""; display: table; clear: both; }
   .inside-item { float: left; width: 30.66%; margin-right: 4%; }
