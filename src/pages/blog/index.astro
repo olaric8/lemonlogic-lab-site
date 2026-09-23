@@ -16,8 +16,9 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
   {categories.length > 0 && (
     <section class="wrap categories">
       <div class="category-pills">
+        <button class="pill active" data-filter="all">All</button>
         {categories.map((cat) => (
-          <span class="pill">{cat}</span>
+          <button class="pill" data-filter={cat}>{cat}</button>
         ))}
       </div>
     </section>
@@ -25,7 +26,7 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
 
   <section class="wrap list">
     {posts.map((post) => (
-      <a class="post-card" href={`/blog/${post.id}`}>
+      <a class="post-card" data-category={post.data.category} href={`/blog/${post.id}`}>
         <div class="post-meta">
           <span class="post-category">{post.data.category}</span>
           <span class="post-date">{post.data.pubDate.toLocaleDateString("en-GB", { month: "short", day: "numeric", year: "numeric" })}</span>
@@ -35,8 +36,35 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
       </a>
     ))}
     {posts.length === 0 && <p class="empty">First post coming soon.</p>}
+    <p class="empty" id="no-results" style="display:none;">No posts in this category yet.</p>
   </section>
 </BaseLayout>
+
+<script>
+  const pills = document.querySelectorAll<HTMLButtonElement>('.pill');
+  const cards = document.querySelectorAll<HTMLAnchorElement>('.post-card');
+  const noResults = document.getElementById('no-results');
+
+  pills.forEach((pill) => {
+    pill.addEventListener('click', () => {
+      const filter = pill.dataset.filter;
+
+      pills.forEach((p) => p.classList.remove('active'));
+      pill.classList.add('active');
+
+      let visibleCount = 0;
+      cards.forEach((card) => {
+        const matches = filter === 'all' || card.dataset.category === filter;
+        (card as HTMLElement).style.display = matches ? '' : 'none';
+        if (matches) visibleCount++;
+      });
+
+      if (noResults) {
+        noResults.style.display = visibleCount === 0 ? '' : 'none';
+      }
+    });
+  });
+</script>
 
 <style>
   .header { padding: 56px 0 32px; }
@@ -46,10 +74,14 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
   .categories { padding-bottom: 24px; }
   .category-pills { display: flex; gap: 10px; flex-wrap: wrap; }
   .pill {
+    font-family: 'Inter', sans-serif;
     font-size: 0.82rem; font-weight: 600; color: var(--ink);
     border: 1.5px solid var(--gridline-dark); border-radius: 999px;
-    padding: 6px 14px; background: #fff;
+    padding: 6px 14px; background: #fff; cursor: pointer;
+    transition: background 0.15s, border-color 0.15s;
   }
+  .pill:hover { border-color: var(--ink); }
+  .pill.active { background: var(--lemon); border-color: var(--ink); }
 
   .list { padding-bottom: 72px; display: flex; flex-direction: column; }
   .post-card {
