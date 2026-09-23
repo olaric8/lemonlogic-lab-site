@@ -35,7 +35,7 @@ A quote does two jobs:
 1. **Protects you** — no surprises about scope or price later
 2. **Helps the client decide** — a clear quote makes it easy to say yes or compare your offer against competitors
 
-Once the client agrees ("Yes, go ahead with the â‚¦150,000 proposal"), you're ready to start.
+Once the client agrees ("Yes, go ahead with the ₦150,000 proposal"), you're ready to start.
 
 ## The invoice: after the work (or at agreed milestones)
 

@@ -27,7 +27,7 @@ Nigeria's VAT rate is **7.5%**. There was a lot of noise during the 2025 reforms
 
 This is where small business owners get anxious, and honestly, it's the one area where you should not take a blog's word as gospel.
 
-For years, a business had to register for and charge VAT once its turnover crossed a set threshold in a 12-month period. The 2025 reforms widened the relief given to genuinely small businesses — the "small company" category (which also brings a 0% company income tax rate) is now defined around modest annual turnover and total fixed assets under â‚¦250 million, with professional-services firms specifically excluded.
+For years, a business had to register for and charge VAT once its turnover crossed a set threshold in a 12-month period. The 2025 reforms widened the relief given to genuinely small businesses — the "small company" category (which also brings a 0% company income tax rate) is now defined around modest annual turnover and total fixed assets under ₦250 million, with professional-services firms specifically excluded.
 
 But here's the honest part: **the exact VAT thresholds have been reported differently in different places** since the reform landed, and there have even been disputes about the final gazetted figures. So rather than give you a number that might not apply to your situation, here's the safe rule:
 
@@ -45,25 +45,25 @@ This is the most common. You have a price, and you need to add 7.5% to it.
 
 **Formula:** `VAT = Price Ã— 7.5%` (or `Price Ã— 0.075`)
 
-**Example:** You're invoicing a client â‚¦150,000 for a website design.
+**Example:** You're invoicing a client ₦150,000 for a website design.
 
-- VAT = â‚¦150,000 Ã— 0.075 = **â‚¦11,250**
-- Total the client pays = â‚¦150,000 + â‚¦11,250 = **â‚¦161,250**
+- VAT = ₦150,000 Ã— 0.075 = **₦11,250**
+- Total the client pays = ₦150,000 + ₦11,250 = **₦161,250**
 
-On the invoice, you show the â‚¦150,000, the â‚¦11,250 VAT as a separate line, and the â‚¦161,250 total. Never bury the VAT inside the price with no breakdown — a proper invoice always shows it separately.
+On the invoice, you show the ₦150,000, the ₦11,250 VAT as a separate line, and the ₦161,250 total. Never bury the VAT inside the price with no breakdown — a proper invoice always shows it separately.
 
 ### Situation 2: Pulling VAT out of a total (VAT-inclusive)
 
-Sometimes you're handed a figure that *already includes* VAT — say a customer paid â‚¦107,500 flat and you need to know how much of that was VAT to remit.
+Sometimes you're handed a figure that *already includes* VAT — say a customer paid ₦107,500 flat and you need to know how much of that was VAT to remit.
 
-You can't just take 7.5% of â‚¦107,500 — that's a classic mistake. Because the â‚¦107,500 represents 107.5% of the real price, you work backwards.
+You can't just take 7.5% of ₦107,500 — that's a classic mistake. Because the ₦107,500 represents 107.5% of the real price, you work backwards.
 
 **Formula:** `VAT = Total Ã— (7.5 Ã· 107.5)`
 
-**Example:** A total of â‚¦107,500 that includes VAT.
+**Example:** A total of ₦107,500 that includes VAT.
 
-- VAT = â‚¦107,500 Ã— (7.5 Ã· 107.5) = **â‚¦7,500**
-- The actual price (before VAT) = â‚¦107,500 âˆ’ â‚¦7,500 = **â‚¦100,000**
+- VAT = ₦107,500 Ã— (7.5 Ã· 107.5) = **₦7,500**
+- The actual price (before VAT) = ₦107,500 âˆ’ ₦7,500 = **₦100,000**
 
 ### Putting it together on a real invoice
 
@@ -71,11 +71,11 @@ Most invoices have several lines. You total everything first, *then* apply VAT t
 
 | Item | Amount |
 |---|---|
-| Website design | â‚¦150,000 |
-| Logo design | â‚¦45,000 |
-| **Subtotal** | **â‚¦195,000** |
-| VAT (7.5%) | â‚¦14,625 |
-| **Total due** | **â‚¦209,625** |
+| Website design | ₦150,000 |
+| Logo design | ₦45,000 |
+| **Subtotal** | **₦195,000** |
+| VAT (7.5%) | ₦14,625 |
+| **Total due** | **₦209,625** |
 
 That's the entire calculation, start to finish. It's not complicated — but doing it by hand on every single invoice, and never slipping a digit, is exactly the kind of small repetitive task that eats an afternoon and eventually bites you.
 

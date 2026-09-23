@@ -27,7 +27,7 @@ With that in mind, here's the anatomy.
 
 **4. Issue date and — critically — a due date.** This is the single most important element for getting paid on time. "Payment due on delivery" or an open-ended invoice invites indefinite delay. A specific due date ("Due: 25 September 2026") creates a clear deadline and a psychological anchor. No due date, no urgency.
 
-**5. Clear line items.** Don't write "Services rendered — â‚¦200,000." Break it down: what you did, the quantity, the rate, and the amount for each line. Specificity builds trust and pre-empts the "what exactly am I paying for?" question that stalls payment.
+**5. Clear line items.** Don't write "Services rendered — ₦200,000." Break it down: what you did, the quantity, the rate, and the amount for each line. Specificity builds trust and pre-empts the "what exactly am I paying for?" question that stalls payment.
 
 **6. Subtotal, VAT, and a total that can't be missed.** Show the subtotal, then VAT at 7.5% as its own line (if you charge it — we covered exactly how to calculate it in [How to Calculate VAT in Nigeria](/blog/how-to-calculate-vat-nigeria)), then the **grand total due**, in bold, large, unmissable. The client should see what they owe in one glance.
 
@@ -36,6 +36,8 @@ With that in mind, here's the anatomy.
 **8. Payment terms.** Spell out the terms: "Payment due within 7 days of invoice date." If you charge a late fee, state it here. Clear terms set expectations and give you a firm, professional footing if you need to follow up.
 
 **9. A brief, warm closing note.** A simple "Thank you for your business" costs nothing and keeps the relationship human. Payment is a relationship transaction, not just a financial one.
+
+Want this as a quick reference? Here's the [full 12-point invoice checklist](/blog/invoice-template-checklist) you can run through before sending any invoice.
 
 ## Getting paid is also about habits, not just layout
 
@@ -50,7 +52,7 @@ A perfect invoice still needs good habits around it:
 
 You may have heard about **e-invoicing** becoming mandatory in Nigeria. Here's the calm version of the truth, so you neither panic nor get caught out.
 
-Under the 2025 tax reforms, the Nigeria Revenue Service (NRS) — the renamed FIRS — is rolling out a mandatory electronic invoicing system (the Merchant Buyer Solution) in **phases, based on turnover**. Large businesses are already on it. But the rollout for **small and "emerging" businesses (turnover under â‚¦1 billion) isn't scheduled to go live until around mid-2027, with enforcement following into 2028.**
+Under the 2025 tax reforms, the Nigeria Revenue Service (NRS) — the renamed FIRS — is rolling out a mandatory electronic invoicing system (the Merchant Buyer Solution) in **phases, based on turnover**. Large businesses are already on it. But the rollout for **small and "emerging" businesses (turnover under ₦1 billion) isn't scheduled to go live until around mid-2027, with enforcement following into 2028.**
 
 In other words: if you're a typical small business, **you are not required to use the NRS e-invoicing system yet.** But it is coming. The smartest move now isn't to scramble — it's to get your invoicing onto a **clean, consistent, professional format today**, so that when the requirement reaches your tier, you're adjusting a system you already run well rather than building one from scratch under a deadline. (Thresholds and dates are set by the NRS and can change — confirm your position with the NRS or your accountant.)
 
@@ -71,7 +73,7 @@ That's exactly what the [SME Invoice & Payment Tracker Kit](https://selar.com/6w
 
 ---
 
-*This guide is general business information, not tax or legal advice. Nigeria's tax and e-invoicing rules are changing through 2026—“2028; confirm your specific obligations with the NRS or a qualified accountant.*
+*This guide is general business information, not tax or legal advice. Nigeria's tax and e-invoicing rules are changing through 2026–2028; confirm your specific obligations with the NRS or a qualified accountant.*
 ---
 
 ## About the author

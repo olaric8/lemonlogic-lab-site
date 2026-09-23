@@ -33,17 +33,17 @@ This guide covers the seven mistakes that trip up Nigerian small business owners
 
 **The fix:** A specific date. "Due: 30 September 2026." Full stop. It creates a psychological anchor and gives you something firm to reference.
 
-## 3. Vague line items ("Services rendered — â‚¦200,000")
+## 3. Vague line items ("Services rendered — ₦200,000")
 
 **The mistake:** Lumping everything into one line with a generic description.
 
 **Why it costs you:**
 - Client sees a big number with no justification and hesitates
-- Opens the door to negotiation: "Why â‚¦200,000 exactly?"
+- Opens the door to negotiation: "Why ₦200,000 exactly?"
 - If there's a dispute, you have nothing to fall back on
 - Client can't explain the invoice to their finance person, which stalls approval
 
-**The fix:** Break it down. "Website redesign (3 weeks, 40 hours @ â‚¦1,500/hr) — â‚¦60,000. Logo design (5 concepts) — â‚¦30,000..." Specific line items make it real and defensible.
+**The fix:** Break it down. "Website redesign (3 weeks, 40 hours @ ₦1,500/hr) — ₦60,000. Logo design (5 concepts) — ₦30,000..." Specific line items make it real and defensible.
 
 ## 4. Missing or buried bank details
 
@@ -66,7 +66,7 @@ This guide covers the seven mistakes that trip up Nigerian small business owners
 - Wrong calculations: you either undersell yourself or look careless
 - Inconsistency raises questions: "Did you charge VAT last time? Why not this time?"
 
-**The fix:** [Calculate VAT correctly](/blog/how-to-calculate-vat-nigeria) and show it as its own line every time. "Subtotal — â‚¦150,000. VAT (7.5%) — â‚¦11,250. Total — â‚¦161,250." Clean, consistent, professional.
+**The fix:** [Calculate VAT correctly](/blog/how-to-calculate-vat-nigeria) and show it as its own line every time. "Subtotal — ₦150,000. VAT (7.5%) — ₦11,250. Total — ₦161,250." Clean, consistent, professional.
 
 ## 6. No payment terms or late-fee policy stated
 
@@ -94,7 +94,7 @@ This guide covers the seven mistakes that trip up Nigerian small business owners
 
 ## The quiet cost of these mistakes
 
-Each one alone might cost you a few days or a few hundred naira. But add them up over a year — 20 clients, one mistake per invoice, each one delaying payment by an average of 5 days — and you're looking at â‚¦50,000—“â‚¦200,000 in cash you're not collecting on time, or not collecting at all.
+Each one alone might cost you a few days or a few hundred naira. But add them up over a year — 20 clients, one mistake per invoice, each one delaying payment by an average of 5 days — and you're looking at ₦50,000–₦200,000 in cash you're not collecting on time, or not collecting at all.
 
 That's money your business needs *now*, not three months from now.
 
