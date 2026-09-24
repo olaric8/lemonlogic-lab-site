@@ -7,7 +7,7 @@ const posts = (await getCollection("blog", ({ data }) => !data.draft))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .slice(0, 3);
 ---
-<BaseLayout title="Home">
+<BaseLayout title="Home" fullTitle="LemonLogic Lab | Practical AI & Automation for African SMEs" ogTitle="Practical AI & Automation for African SMEs | LemonLogic Lab" description="Practical AI and automation guidance for African SMEs, plus the SME Invoice & Payment Tracker Kit.">
   <section class="hero wrap">
     <h1>Practical AI &amp; automation for African SMEs.</h1>
     <p class="sub">No jargon, no enterprise budgets — just the tools and habits that save a small business owner real hours, written by someone running five of them.</p>
