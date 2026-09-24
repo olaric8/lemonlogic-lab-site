@@ -38,8 +38,8 @@ I use it across my own businesses. Other Nigerian SMEs use it. If it works for y
 
 If you have questions about the content, the kit, or anything else, reach out:
 
-**Email:** hello@lemonlogicai.com  
-**WhatsApp:** +234 814 466 4481
+**Email:** <a href="mailto:hello@lemonlogicai.com">hello@lemonlogicai.com</a>  
+**WhatsApp:** <a href="https://wa.me/2348144664481">+234 814 466 4481</a>
 
 I read and respond to messages. If you're running a business in Nigeria and dealing with invoicing, payments, or admin headaches, I probably understand the problem.
 

@@ -10,13 +10,13 @@ Have a question about the invoice kit, need support, or just want to talk busine
 
 ## Email
 
-**hello@lemonlogicai.com**
+**<a href="mailto:hello@lemonlogicai.com">hello@lemonlogicai.com</a>**
 
 Best for detailed questions, support requests, or anything that needs a written record.
 
 ## WhatsApp
 
-**+234 814 466 4481**
+**<a href="https://wa.me/2348144664481">+234 814 466 4481</a>**
 
 Best for quick questions or if you would rather chat than write an email.
 

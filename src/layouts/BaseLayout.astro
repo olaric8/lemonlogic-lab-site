@@ -87,6 +87,43 @@ const {
   <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "f65fe9ea76d24bfbac0d3b2f4fdb2782"}'></script>
   <!-- End Cloudflare Web Analytics -->
 
+  <script is:inline>
+    (function () {
+      function trackEvent(name) {
+        try {
+          var real = location.pathname + location.search + location.hash;
+          history.pushState({}, '', '/e/' + name);
+          history.replaceState({}, '', real);
+        } catch (e) {}
+      }
+      window.lemonTrack = trackEvent;
+
+      document.addEventListener('click', function (e) {
+        var a = e.target.closest('a');
+        if (!a) return;
+        var href = a.getAttribute('href') || '';
+        if (href.indexOf('/invoice-kit') === 0) {
+          trackEvent('click-invoice-kit-link');
+        } else if (href.indexOf('selar.com') !== -1) {
+          trackEvent('click-selar-checkout');
+        } else if (href.indexOf('wa.me') !== -1 || href.indexOf('whatsapp') !== -1) {
+          trackEvent('click-whatsapp');
+        } else if (href.indexOf('mailto:') === 0) {
+          trackEvent('click-email');
+        }
+      });
+
+      var scrollTracked = {};
+      window.addEventListener('scroll', function () {
+        var scrolled = (window.scrollY + window.innerHeight) / document.body.scrollHeight;
+        if (scrolled > 0.75 && !scrollTracked['75']) {
+          scrollTracked['75'] = true;
+          trackEvent('scroll-75-' + location.pathname.replace(/\//g, '-'));
+        }
+      }, { passive: true });
+    })();
+  </script>
+
   
   <!-- Schema Markup for Organization -->
   <script type="application/ld+json">
