@@ -141,12 +141,3 @@ Once you've set your price and confidently quoted it, the real work begins: deli
 ---
 
 *This is general business guidance for Nigerian SMEs. Every business is different, and pricing should reflect your specific costs, market position, and value delivery. Talk to your accountant about tax implications of your pricing model.*
----
-
-## About the author
-
-**Written by Eric**
-
-Founder of [LemonLogic Lab](/about) and operator of LA AutoWorks (20+ years), OK3D, Andstan Solar, and other Nigerian ventures. Builder of practical systems for SMEs.
-
-[Read more about LemonLogic Lab](/about)

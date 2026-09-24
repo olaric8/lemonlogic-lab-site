@@ -100,13 +100,3 @@ Whether you use a ready-made kit or build your own, the goal is the same: an inv
 ---
 
 *This checklist reflects standard invoicing practices for Nigerian SMEs as of September 2026. For VAT registration thresholds and compliance requirements specific to your business, consult a qualified accountant or the NRS directly.*
-
----
-
-## About the author
-
-**Written by Eric**
-
-Founder of [LemonLogic Lab](/about) and operator of LA AutoWorks (20+ years), OK3D, Andstan Solar, and other Nigerian ventures. Builder of practical systems for SMEs.
-
-[Read more about LemonLogic Lab](/about)

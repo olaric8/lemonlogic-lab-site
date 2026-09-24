@@ -34,12 +34,3 @@ Chasing payment is the task most small business owners put off — which is exac
 ---
 
 None of these need a developer, a subscription, or a course. Pick one this week, not all five — the goal is one less manual task, not a weekend project.
----
-
-## About the author
-
-**Written by Eric**
-
-Founder of [LemonLogic Lab](/about) and operator of LA AutoWorks (20+ years), OK3D, Andstan Solar, and other Nigerian ventures. Builder of practical systems for SMEs.
-
-[Read more about LemonLogic Lab](/about)

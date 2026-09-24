@@ -129,12 +129,3 @@ If you'd rather not run that maths by hand every time — invoice after invoice,
 ---
 
 *This guide is general information, not tax advice, and reflects the Nigeria Tax Act 2025 as it stands in 2026. Tax rules change, and some 2026 figures are still being clarified — always confirm your specific obligations with the NRS or a qualified accountant.*
----
-
-## About the author
-
-**Written by Eric**
-
-Founder of [LemonLogic Lab](/about) and operator of LA AutoWorks (20+ years), OK3D, Andstan Solar, and other Nigerian ventures. Builder of practical systems for SMEs.
-
-[Read more about LemonLogic Lab](/about)

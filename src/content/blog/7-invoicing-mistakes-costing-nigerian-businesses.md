@@ -109,12 +109,3 @@ That's exactly what the [SME Invoice & Payment Tracker Kit](https://selar.com/6w
 ---
 
 *This guide is general business information. Always confirm your specific invoicing obligations with the NRS or your accountant.*
----
-
-## About the author
-
-**Written by Eric**
-
-Founder of [LemonLogic Lab](/about) and operator of LA AutoWorks (20+ years), OK3D, Andstan Solar, and other Nigerian ventures. Builder of practical systems for SMEs.
-
-[Read more about LemonLogic Lab](/about)

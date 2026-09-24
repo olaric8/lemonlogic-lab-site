@@ -111,12 +111,3 @@ Once you *are* registered, the work is mostly routine: calculate the VAT, show i
 ---
 
 *This guide is general information about Nigerian tax registration, not tax or legal advice. Tax rules are complex and still being clarified in 2026; always confirm your specific obligations with the NRS (nrs.gov.ng) or a qualified tax professional.*
----
-
-## About the author
-
-**Written by Eric**
-
-Founder of [LemonLogic Lab](/about) and operator of LA AutoWorks (20+ years), OK3D, Andstan Solar, and other Nigerian ventures. Builder of practical systems for SMEs.
-
-[Read more about LemonLogic Lab](/about)

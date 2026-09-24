@@ -97,12 +97,3 @@ Most importantly: your time and energy are more valuable than any single late-pa
 ---
 
 *This guide is general information about payment recovery in Nigeria, not legal advice. Debt recovery laws vary by state and case. Always consult a lawyer licensed in your state before taking legal action.*
----
-
-## About the author
-
-**Written by Eric**
-
-Founder of [LemonLogic Lab](/about) and operator of LA AutoWorks (20+ years), OK3D, Andstan Solar, and other Nigerian ventures. Builder of practical systems for SMEs.
-
-[Read more about LemonLogic Lab](/about)
