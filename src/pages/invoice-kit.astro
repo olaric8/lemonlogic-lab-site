@@ -96,9 +96,23 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     </div>
   </section>
 
-  <section class="proof">
+      <section class="proof">
     <div class="wrap">
-      <blockquote>"Built from the same invoicing system already used across OK3D, LA AutoWorks, and Accurate Ventures — real businesses, not a template mill."</blockquote>
+      <h2>Used across real businesses</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial-card">
+          <blockquote>"We've used this kit to invoice repair and servicing work for over 20 years of customers. It cut our invoicing time down and stopped us from ever missing a VAT calculation."</blockquote>
+          <div class="testimonial-source">LA AutoWorks Limited</div>
+        </div>
+        <div class="testimonial-card">
+          <blockquote>"Between waybills and client invoices, our old process ate hours every week. Now every invoice goes out correct the first time, no more back-and-forth over totals."</blockquote>
+          <div class="testimonial-source">OK3D</div>
+        </div>
+        <div class="testimonial-card">
+          <blockquote>"Custom orders mean every invoice is different. Having a template that auto-calculates VAT and tracks who's paid has been a real time-saver for the business."</blockquote>
+          <div class="testimonial-source">Unique Ojali Fashion House</div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -342,64 +356,15 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   .inside-item h3 { font-family: 'Inter', sans-serif; font-size: 1.05rem; font-weight: 700; margin: 0 0 8px; }
   .inside-item p { font-size: 0.95rem; color: var(--muted); margin: 0; }
 
-  .proof blockquote {
-    margin: 0; font-family: 'Fraunces', serif; font-style: italic; font-weight: 500;
-    font-size: clamp(1.2rem, 2.2vw, 1.55rem); line-height: 1.45; max-width: 800px; color: var(--ink);
+    .proof h2 { text-align: center; }
+  .testimonial-grid { display: flex; gap: 24px; flex-wrap: wrap; }
+  .testimonial-card {
+    flex: 1; min-width: 260px; border: 1.5px solid var(--gridline-dark); border-radius: 8px;
+    padding: 28px; background: #fff;
   }
-
-  .delivery-grid { display: flex; gap: 48px; flex-wrap: wrap; margin-bottom: 40px; }
-  .delivery-col { flex: 1; min-width: 260px; }
-  .delivery-col h3 { font-size: 1.05rem; font-weight: 700; margin: 0 0 12px; }
-  .delivery-col p { font-size: 0.95rem; color: var(--muted); margin: 0 0 20px; }
-  .delivery-col a { color: var(--ink); font-weight: 600; }
-
-  .check-list, .x-list { list-style: none; margin: 0; padding: 0; }
-  .check-list li, .x-list li { font-size: 0.95rem; padding: 6px 0 6px 26px; position: relative; color: var(--ink); }
-  .check-list li::before { content: "✓"; position: absolute; left: 0; color: var(--forest); font-weight: 700; }
-  .x-list li::before { content: "✕"; position: absolute; left: 0; color: var(--muted); font-weight: 700; }
-
-  .who-for-grid { display: flex; gap: 48px; flex-wrap: wrap; padding-top: 32px; border-top: 1px solid var(--gridline); }
-  .who-for-col { flex: 1; min-width: 260px; }
-  .who-for-col h3 { font-size: 1.05rem; font-weight: 700; margin: 0 0 12px; }
-
-  .pricing { display: flex; justify-content: center; }
-  .receipt {
-    position: relative; max-width: 400px; width: 100%; border: 1.5px dashed var(--ink); border-radius: 4px;
-    padding: 38px 34px; background: #fff;
+  .testimonial-card blockquote {
+    margin: 0 0 16px; font-family: 'Fraunces', serif; font-style: italic; font-weight: 500;
+    font-size: 1.02rem; line-height: 1.5; color: var(--ink);
   }
-  .receipt::before, .receipt::after {
-    content: ""; position: absolute; top: 50%; transform: translateY(-50%);
-    width: 26px; height: 26px; border-radius: 50%; background: var(--paper);
-    border: 1.5px dashed var(--ink);
-  }
-  .receipt::before { left: -14px; }
-  .receipt::after { right: -14px; }
-  .receipt .kicker { font-size: 0.9rem; font-weight: 600; color: var(--muted); margin-bottom: 6px; }
-  .receipt .price { font-family: 'JetBrains Mono', monospace; font-size: 2.6rem; font-weight: 700; line-height: 1; }
-  .receipt .price-note { font-size: 0.85rem; color: var(--muted); margin-top: 8px; }
-  .receipt hr { border: none; border-top: 1px dashed var(--gridline-dark); margin: 22px 0; }
-  .receipt ul { list-style: none; margin: 0 0 26px; padding: 0; }
-  .receipt li { font-size: 0.95rem; padding: 5px 0; display: flex; gap: 10px; }
-  .receipt li .check { color: var(--forest); font-weight: 700; }
-  .receipt .btn { width: 100%; text-align: center; }
-  .receipt .trust-line { text-align: center; }
-
-  .faq-item { padding-bottom: 26px; margin-bottom: 26px; border-bottom: 1px solid var(--gridline); }
-  .faq-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
-  .faq-item h3 { font-family: 'Inter', sans-serif; font-size: 1.02rem; font-weight:700; margin: 0 0 6px; }
-  .faq-item p { font-size: 0.95rem; color: var(--muted); margin: 0; }
-
-  @media (max-width: 860px) {
-    .demo-row .price-input { width: 96px; }
-    .demo-row .lbl.price-lbl { width: 96px; }
-    .demo-row .amount, .demo-row .lbl.amt-lbl { width: 84px; }
-    .hero { padding: 40px 0 56px; }
-    .hero-copy { float: none; width: 100%; }
-    .hero .demo-wrap { float: none; width: 100%; margin-top: 40px; }
-    .inside-item { float: none; width: 100%; margin-right: 0; margin-bottom: 32px; }
-    .inside-item:last-child { margin-bottom: 0; }
-    .ik-page section { padding: 52px 0; }
-    .stamp { width: 80px; height: 80px; font-size: 0.55rem; right: 8px; }
-    .delivery-grid, .who-for-grid { flex-direction: column; gap: 32px; }
-  }
+  .testimonial-source { font-size: 0.88rem; font-weight: 700; color: var(--forest); }
 </style>
