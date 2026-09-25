@@ -1,3 +1,6 @@
+cd "C:\Projects\lemonlogic-lab-site"
+
+$newContent = @'
 import { defineCollection, z } from "astro:content";
 import { glob } from "astro/loaders";
 
@@ -20,3 +23,9 @@ const blog = defineCollection({
 });
 
 export const collections = { blog };
+'@
+
+$utf8NoBom = New-Object System.Text.UTF8Encoding($false)
+[System.IO.File]::WriteAllText("src\content.config.ts", $newContent, $utf8NoBom)
+
+Write-Output "content.config.ts rewritten"
