@@ -13,9 +13,9 @@ Two consequences:
 - **The pool is bigger than three.** The quoted businesses are the consulting clients. Everyone else who has bought or used the kit is an untapped source of quotes — and arguably the better source, because they *chose* it rather than having it built for them.
 - **Offline evidence is still evidence.** A WhatsApp message saying "this saved me hours" is real proof. It just needs to be asked for, tidied into one sentence, and given permission to publish.
 
-As of September 2026: **14 individuals and businesses** have bought or used the kit, **all 14** are reachable on WhatsApp, and every sale so far came through word of mouth — WhatsApp, referrals, in person and repeat work. The site therefore claims 14 users, and the message below can go to all of them today. Update this figure as it grows.
+As of September 2026: **14 individuals and businesses** have bought or used the kit, **all 14** are reachable on WhatsApp, and every sale so far came through word of mouth — WhatsApp, referrals, in person and repeat work. The site therefore claims 14 users, and the message below can go to all of them today. First sale: December 2024, and all 14 are in Nigeria. Update this figure as it grows.
 
-Because every sale so far came through a relationship rather than a channel, there is no single channel to double down on. The site's job is to close people you are already talking to, and the habit of asking for a referral is what produces the next 14.
+Because every sale so far came through a relationship rather than a channel, there is no single channel to double down on. The site's job is to close people you are already talking to, and the habit of asking for a referral is what produces the next 14. The product page states "In use since December 2024" on its own line rather than "14 since December 2024" — pairing the date with the count invites the reader to divide it, and longevity is the point.
 
 ### Message to a past buyer
 
