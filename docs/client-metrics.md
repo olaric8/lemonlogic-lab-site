@@ -26,17 +26,53 @@ Ask each client these. Most take one message. Two or three of them will produce 
 6. **Permission.** "Can I quote you by name and business, and use these numbers?"
    Ask every time, in writing, and keep the reply.
 
-## Copy-paste message
+## Three messages, ready to send
 
-WhatsApp is how these clients actually talk, so lead with that.
+WhatsApp is how these clients actually talk, so send them there. Replace `[name]` with the person you deal with at each business — everything else is ready.
 
-> Hi [name] — quick favour. I'm writing up how [business] handles invoicing now, and I want to include real numbers instead of vague claims. Three questions, whatever you can answer off the top of your head:
+Each message names the specific thing that client does, so it does not read as a mass blast, and each ends with an easy "no" so nobody feels cornered. Most people answer the second question even when they skip the first.
+
+### 1. To OK3D
+
+> Hi [name] — I'm writing up the OK3D case study for the site, and I'd like it to have real numbers in it instead of vague claims. Three quick ones, whatever you can answer off the top of your head:
 >
-> 1. Roughly how many invoices a month, across how many clients?
-> 2. Before the tracker, how long did a week's invoicing take? And now?
-> 3. If another [sector] business asked if it was worth it, what would you say?
+> 1. Roughly how many invoices a month now, across how many clients?
+> 2. Before we moved the waybills and invoices onto the tracker, how long did billing take you in a week? And now?
+> 3. If another logistics business asked whether it was worth setting up, what would you tell them?
 >
-> Rough guesses are fine. And is it OK if I quote you by name and business on the site?
+> Rough guesses are fine — I'd rather have "about half a day" than nothing. And is it OK to quote you by name and business on the site?
+
+### 2. To LA AutoWorks
+
+> Hi [name] — I'm writing up how LA AutoWorks handles invoicing now, and I want to use real numbers rather than vague ones. Three quick questions, off the top of your head:
+>
+> 1. Roughly how many invoices a month these days, across walk-in customers and fleet clients?
+> 2. Before the tracker, how long did invoicing take you in a week — and how long now?
+> 3. What would you say to another workshop owner who asked whether it was worth it?
+>
+> Guesses are fine. And is it OK if I quote you by name and business on the site?
+
+### 3. To Unique Ojali Fashion House
+
+> Hi [name] — I'm putting together a short write-up on how Unique Ojali handles invoicing for custom orders, and I'd like it to have real numbers. Three quick ones:
+>
+> 1. Roughly how many invoices a month, with custom orders varying the way they do?
+> 2. How long did a week's invoicing take before the tracker, and how long now?
+> 3. If another fashion business asked whether it was worth it, what would you tell them?
+>
+> Rough answers are fine. And is it OK to quote you by name and business?
+
+### If nobody replies
+
+Send one nudge four or five days later, then stop. One line is enough:
+
+> Hi [name] — no rush on this, just bumping it in case it got buried. Even a rough guess on the time saved would help.
+
+If someone would rather not share figures, that is still useful. Ask instead:
+
+> No problem at all — would you be OK with just a sentence about whether it's working for you?
+
+A quote with no numbers still beats a testimonial with no name attached.
 
 ## Weak vs strong
 
@@ -57,6 +93,16 @@ The strong version needs no instrumentation at all. It is the client's own estim
 - Do not convert their words into a percentage they did not say. "Cut it in half" is theirs; "50% reduction" is yours, and it is exactly the kind of polish that gets a claim challenged.
 - Round numbers you cannot substantiate read as invented. "About 20 minutes" sounds true. "Saved 347 hours" does not.
 - If a client says "I don't track it," ask for a comparison instead: "Was it an afternoon, or most of a day?" Ranges are fine once the client has approved the range.
+
+## Two numbers you can get today, without asking anyone
+
+Client replies take time. These two do not.
+
+**1. Your own time.** The About page already says the kit "automates what took me 30 minutes every week to do manually." That is a real, first-person number and it is already public — you just have not used it on the product page. A line in your own voice works even where a client quote is missing: *"I used to spend about 30 minutes a week on this by hand. Now it is a couple of minutes."*
+
+**2. How many buyers.** Your Selar dashboard holds the sales count. "Used by 40 Nigerian businesses" is more persuasive than "used by real Nigerian businesses" — but only publish it if the number is respectable. A small count does the opposite of what you want, so use your judgement and leave it out if it is not there yet.
+
+Neither of these needs anyone's permission, and both are strictly true.
 
 ## The non-client testimonial
 
@@ -82,6 +128,8 @@ Expect most people not to reply. Two or three replies is a real result, and one 
 | Volume, time, errors | `src/content/blog/case-study-ok3d.md` and `case-study-la-autoworks.md` — marked with TODO comments |
 | Peer recommendation | `src/pages/invoice-kit.astro`, the testimonial cards |
 | Non-client quote | `src/pages/invoice-kit.astro` — add a fourth card |
+
+The two case-study TODO comments are visible in the published page source, so delete them once the sections are written. The one in `invoice-kit.astro` uses Astro comment syntax and is stripped at build time.
 
 ## Ready-to-paste block
 
