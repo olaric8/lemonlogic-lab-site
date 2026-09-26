@@ -16,6 +16,9 @@ Two consequences:
 As of September 2026: **14 individuals and businesses** have bought or used the kit, **all 14** are reachable on WhatsApp, and every sale so far came through word of mouth — WhatsApp, referrals, in person and repeat work. The site therefore claims 14 users, and the message below can go to all of them today. First sale: December 2024, and all 14 are in Nigeria. Update this figure as it grows.
 
 Because every sale so far came through a relationship rather than a channel, there is no single channel to double down on. The site's job is to close people you are already talking to, and the habit of asking for a referral is what produces the next 14. The product page states "In use since December 2024" on its own line rather than "14 since December 2024" — pairing the date with the count invites the reader to divide it, and longevity is the point.
+**Quotes received, September 2026.** Lanre (LA AutoWorks), Onyin (OK3D) and Mary (Unique Ojali) each sent a line. All three are existing consulting clients, so the non-client gap is still open — this swapped the formal wording under each business name for their own words and their names, which is a real gain, but they are not new voices. The other buyers remain unasked.
+
+Edits applied, and nothing else: "at" to "on" and "I" to "I'd" in Mary's line, and a dash where Lanre's sentence was missing a verb ("...my payments gone just by..." became "...my payments — gone, just by..."). No words were added or removed.
 
 ### Message to a past buyer
 
