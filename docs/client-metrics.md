@@ -4,6 +4,26 @@ The case studies on the site explain *how* the kit changes invoicing. None of th
 
 **These numbers have to come from your clients.** Writing a figure for a named business — LA AutoWorks, OK3D, Unique Ojali — would be a false claim about a real third party, and it would undo the trust the rest of the site earns. So this document is the shortest path to real ones.
 
+## You already have more proof than the site shows
+
+Most of the businesses using the kit never bought it through the website. They came through direct conversations, referrals and WhatsApp, and there is no online record of any of it. That is not a weakness in the sales — it is a weakness in the website, which currently shows three testimonials and no numbers at all.
+
+Two consequences:
+
+- **The pool is bigger than three.** The quoted businesses are the consulting clients. Everyone else who has bought or used the kit is an untapped source of quotes — and arguably the better source, because they *chose* it rather than having it built for them.
+- **Offline evidence is still evidence.** A WhatsApp message saying "this saved me hours" is real proof. It just needs to be asked for, tidied into one sentence, and given permission to publish.
+
+Start by writing down two figures: how many businesses have bought or used the kit in total, and how many of them you could reach on WhatsApp today. Those two numbers decide what the site can honestly claim.
+
+### Message to a past buyer
+
+> Hi [name] — hope business is good. I'm tidying up the website for the invoice kit, and I want it to show what real users think instead of just my own claims. Two quick questions, both optional:
+>
+> 1. Has the kit saved you any time or trouble since you started using it?
+> 2. Would you mind if I quoted your answer on the site, with your name and business?
+>
+> Even one line helps. And if it hasn't been useful, tell me that honestly.
+
 ## The six questions
 
 Ask each client these. Most take one message. Two or three of them will produce a quotable sentence with a number in it.
@@ -100,7 +120,7 @@ Client replies take time. These two do not.
 
 **1. Your own time.** The About page already says the kit "automates what took me 30 minutes every week to do manually." That is a real, first-person number and it is already public — you just have not used it on the product page. A line in your own voice works even where a client quote is missing: *"I used to spend about 30 minutes a week on this by hand. Now it is a couple of minutes."*
 
-**2. How many buyers.** Your Selar dashboard holds the sales count. As of September 2026 the count is too low to publish — a small number repels buyers rather than attracting them. Leave the current wording ("Used by real Nigerian businesses") alone; it is vague but true. Check the figure again once it reaches double figures.
+**2. How many buyers in total.** Not the Selar figure — that only counts sales made through the website. Count everyone who has bought or used the kit, offline included. See "You already have more proof than the site shows" above.
 
 Neither of these needs anyone's permission, and both are strictly true.
 
