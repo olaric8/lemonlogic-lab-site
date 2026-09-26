@@ -39,6 +39,13 @@ The shift wasn't dramatic. It was a spreadsheet, not new software to learn, not 
 
 **Every invoice looks the same.** Whoever is writing an invoice - regardless of which staff member - now produces the same professional, consistent document. For business clients especially, that consistency reads as more organized and more trustworthy.
 
+<!-- TODO(results): add a "By the numbers" section here once LA AutoWorks confirms
+     figures. This section describes what changed but never says how much, which is
+     the page's biggest credibility gap. Ask for: invoices per month, time before vs
+     after, how often clients queried totals. Questions, rules and a ready-to-paste
+     block are in docs/client-metrics.md. Publish no figure they have not approved.
+     Delete this comment once the section is written. -->
+
 ## Why this matters for a 20-year-old business
 
 There's a temptation to think a business that's survived two decades doesn't need to change how it handles paperwork - if it worked for 20 years, why fix it? But "worked" and "worked efficiently" aren't the same thing. LA AutoWorks didn't have an invoicing crisis. It had accumulated inefficiency: small pockets of time lost to manual calculation, small gaps in payment tracking, small inconsistencies in how invoices looked.

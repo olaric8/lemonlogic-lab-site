@@ -37,6 +37,13 @@ Moving invoicing onto a proper tracked system — the same approach behind the [
 
 **Payment tracking works per client, not per invoice.** With recurring clients getting billed on a cycle, seeing which invoices are paid and which are still outstanding at a glance — rather than checking each one individually — cut down significantly on the admin overhead of following up.
 
+<!-- TODO(results): add a "By the numbers" section here once OK3D confirms figures.
+     This section describes what changed but never says how much, which is the
+     page's biggest credibility gap. Ask for: invoices per month, time before vs
+     after, how often clients queried totals. Questions, rules and a ready-to-paste
+     block are in docs/client-metrics.md. Publish no figure OK3D has not approved.
+     Delete this comment once the section is written. -->
+
 ## Why the waybill-invoice gap matters more in logistics
 
 Most invoicing advice assumes a fairly simple pattern: do the work, send one invoice, get paid. Logistics businesses like OK3D don't work that way. The work is generated continuously — job by job, delivery by delivery — and invoicing has to catch up to it in batches.
