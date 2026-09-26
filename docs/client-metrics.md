@@ -13,7 +13,9 @@ Two consequences:
 - **The pool is bigger than three.** The quoted businesses are the consulting clients. Everyone else who has bought or used the kit is an untapped source of quotes — and arguably the better source, because they *chose* it rather than having it built for them.
 - **Offline evidence is still evidence.** A WhatsApp message saying "this saved me hours" is real proof. It just needs to be asked for, tidied into one sentence, and given permission to publish.
 
-Start by writing down two figures: how many businesses have bought or used the kit in total, and how many of them you could reach on WhatsApp today. Those two numbers decide what the site can honestly claim.
+As of September 2026: **14 individuals and businesses** have bought or used the kit, **all 14** are reachable on WhatsApp, and every sale so far came through word of mouth — WhatsApp, referrals, in person and repeat work. The site therefore claims 14 users, and the message below can go to all of them today. Update this figure as it grows.
+
+Because every sale so far came through a relationship rather than a channel, there is no single channel to double down on. The site's job is to close people you are already talking to, and the habit of asking for a referral is what produces the next 14.
 
 ### Message to a past buyer
 
