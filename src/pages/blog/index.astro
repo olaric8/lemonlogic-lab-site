@@ -13,6 +13,16 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
     <p>Practical automation and AI guidance for African SMEs — no jargon, no enterprise budgets.</p>
   </section>
 
+  <section class="wrap whatsapp-list">
+    <div class="whatsapp-list-inner">
+      <div>
+        <strong>Want new articles and kit tips as they drop?</strong>
+        <p>Join the WhatsApp list â€” no spam, just useful stuff for Nigerian SMEs.</p>
+      </div>
+      <a class="btn" href="https://wa.me/2348144664481?text=Hi%2C%20I%27d%20like%20to%20join%20the%20LemonLogic%20Lab%20updates%20list" target="_blank" rel="noopener">Join on WhatsApp</a>
+    </div>
+  </section>
+
   {categories.length > 0 && (
     <section class="wrap categories">
       <div class="category-pills">
@@ -70,6 +80,17 @@ const categories = [...new Set(posts.map((post) => post.data.category))];
   .header { padding: 56px 0 32px; }
   .header h1 { font-size: clamp(1.9rem, 4vw, 2.6rem); margin-bottom: 14px; }
   .header p { color: var(--muted); font-size: 1.05rem; margin: 0; max-width: 56ch; }
+
+  .whatsapp-list { padding-bottom: 32px; }
+  .whatsapp-list-inner {
+    display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap;
+    border: 1.5px solid var(--ink); border-radius: 8px; padding: 20px 24px;
+    background: var(--lemon);
+  }
+  .whatsapp-list-inner strong { font-size: 1.02rem; display: block; margin-bottom: 4px; }
+  .whatsapp-list-inner p { margin: 0; color: var(--ink); font-size: 0.92rem; }
+  .whatsapp-list-inner .btn { flex-shrink: 0; background: #fff; }
+  .whatsapp-list-inner .btn:hover { background: #f5f5f5; }
 
   .categories { padding-bottom: 24px; }
   .category-pills { display: flex; gap: 10px; flex-wrap: wrap; }
