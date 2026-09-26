@@ -20,6 +20,8 @@ Because every sale so far came through a relationship rather than a channel, the
 
 Edits applied, and nothing else: "at" to "on" and "I" to "I'd" in Mary's line, and a dash where Lanre's sentence was missing a verb ("...my payments gone just by..." became "...my payments — gone, just by..."). No words were added or removed.
 
+**Then the buyers replied.** Odinaka, Dele and a sculptor/artist sent lines. Edits: "help" to "helps" in Dele's; "everyday" to "every day" and a semicolon split into two sentences in the sculptor's. Odinaka's is verbatim. These are the first quotes from people who chose and paid for the kit, rather than having it built for them.
+
 ### Message to a past buyer
 
 > Hi [name] — hope business is good. I'm tidying up the website for the invoice kit, and I want it to show what real users think instead of just my own claims. Two quick questions, both optional:
@@ -131,7 +133,9 @@ Neither of these needs anyone's permission, and both are strictly true.
 
 ## The non-client testimonial
 
-All three current testimonials come from businesses your About page says you consult for. A careful buyer notices that and discounts all three. **One testimonial from someone who simply bought the kit is worth more than the other three combined.**
+**Resolved September 2026.** Three real buyers sent quotes — Odinaka (shop owner, Ladipo), Dele (fashion designer, Ilorin) and a sculptor/artist whose name is still missing. They now lead the testimonial section, ahead of the three consulting clients.
+
+The sculptor's missing name is the one outstanding weakness in that section. An unattributed quote is the least persuasive kind, and it is precisely the kind invented testimonials use. One message gets it.
 
 The cheapest route: Selar holds the buyer list. Send a short message a week after delivery.
 
