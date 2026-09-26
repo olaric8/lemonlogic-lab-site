@@ -185,6 +185,8 @@ Whatever tool you choose, the real work isn't invoicing. It's tracking payments 
 
 And if a client *still* won't pay after everything? [Here's what to do](/blog/what-to-do-when-client-refuses-to-pay).
 
+See how this plays out in practice in our case study on [how OK3D handles invoicing and waybills together](/blog/case-study-ok3d).
+
 ## The bottom line
 
 You don't need expensive software. You need a system that works and doesn't cost you hours every month. For most Nigerian SMEs, that's either Wave (free, some friction) or the Tracker Kit (₦4,500, minimal friction).

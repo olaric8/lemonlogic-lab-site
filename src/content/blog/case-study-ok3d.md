@@ -43,6 +43,8 @@ Most invoicing advice assumes a fairly simple pattern: do the work, send one inv
 
 That's a fundamentally different problem from a single freelancer sending one invoice per project, and it's exactly the kind of gap that generic invoicing advice or accounting software built for retail doesn't address well. The fix isn't a more complicated system — it's making sure each unit of work gets recorded once, correctly, at the moment it happens, so nothing has to be reconstructed later.
 
+For the full list of what a compliant invoice needs, see the [12-point invoice checklist](/blog/invoice-template-checklist).
+
 ## The takeaway
 
 If your business generates billable work continuously rather than as discrete one-off projects — deliveries, service calls, recurring jobs — the biggest invoicing risk isn't the invoice itself. It's the gap between when the work happens and when it gets billed. Close that gap, and the invoice becomes a formality instead of a reconstruction project.

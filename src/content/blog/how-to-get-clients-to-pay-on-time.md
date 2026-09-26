@@ -112,6 +112,8 @@ Without tracking, you're working from memory and emotion — which is why the re
 
 A simple tracker (spreadsheet, or the one built into your [SME Invoice & Payment Tracker Kit](https://selar.com/6w04585s89)) keeps you ahead of the scramble. You know exactly who to follow up with, when, and why. It turns payment-chasing from a relationship strain into a simple admin task.
 
+For a real example of tightening up recurring client billing, see our case study on [OK3D's invoicing and waybill workflow](/blog/case-study-ok3d).
+
 ## The real secret: get it right from the start
 
 The best way to avoid all of this? [Send a clear invoice with a firm due date](/blog/how-to-write-an-invoice-that-gets-paid), agree on payment terms upfront, and make paying you as frictionless as possible. Most late payments start with ambiguous terms or unclear payment details.
