@@ -100,7 +100,7 @@ Client replies take time. These two do not.
 
 **1. Your own time.** The About page already says the kit "automates what took me 30 minutes every week to do manually." That is a real, first-person number and it is already public — you just have not used it on the product page. A line in your own voice works even where a client quote is missing: *"I used to spend about 30 minutes a week on this by hand. Now it is a couple of minutes."*
 
-**2. How many buyers.** Your Selar dashboard holds the sales count. "Used by 40 Nigerian businesses" is more persuasive than "used by real Nigerian businesses" — but only publish it if the number is respectable. A small count does the opposite of what you want, so use your judgement and leave it out if it is not there yet.
+**2. How many buyers.** Your Selar dashboard holds the sales count. As of September 2026 the count is too low to publish — a small number repels buyers rather than attracting them. Leave the current wording ("Used by real Nigerian businesses") alone; it is vague but true. Check the figure again once it reaches double figures.
 
 Neither of these needs anyone's permission, and both are strictly true.
 
