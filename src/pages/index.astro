@@ -24,7 +24,10 @@ const posts = (await getCollection("blog", ({ data }) => !data.draft))
         <h2>The SME Invoice &amp; Payment Tracker Kit</h2>
         <p>An Excel kit that auto-calculates VAT, discounts, and totals — and tracks who's actually paid. Built from templates already used across real Nigerian businesses.</p>
         <a class="btn" href="/invoice-kit">See how it works — ₦4,500</a>
+      </div>      <div class="featured-shot">
+        <img src="/images/shot_invoice.png" alt="The kit's invoice template, showing itemised line items, 7.5% VAT and a Naira total" />
       </div>
+
     </div>
   </section>
   
@@ -69,8 +72,17 @@ const posts = (await getCollection("blog", ({ data }) => !data.draft))
   .featured-card {
     border: 1.5px solid var(--ink); border-radius: 8px; padding: 40px;
     background: #fff; box-shadow: 8px 8px 0 var(--lemon);
+
+    display: flex; align-items: center; gap: 44px; flex-wrap: wrap;
   }
   .featured-copy { max-width: 560px; }
+
+  .featured-copy { max-width: 560px; flex: 1 1 340px; }
+  .featured-shot { flex: 0 0 290px; }
+  .featured-shot img {
+    width: 100%; height: auto; border: 1px solid var(--gridline-dark); border-radius: 4px;
+    box-shadow: 6px 6px 0 var(--gridline); transform: rotate(1.1deg);
+  }
   .kicker { font-size: 0.85rem; font-weight: 600; color: var(--muted); margin-bottom: 10px; }
   .featured-copy h2 { font-size: 1.6rem; margin-bottom: 14px; }
   .featured-copy p { color: var(--muted); font-size: 1rem; margin: 0 0 26px; }
@@ -99,5 +111,9 @@ const posts = (await getCollection("blog", ({ data }) => !data.draft))
   .final-cta p { color: var(--muted); font-size: 1.05rem; margin: 0 0 28px; }
   @media (max-width: 640px) {
     .featured-card { padding: 26px; }
+
+    .featured-card { padding: 26px; }
+    .featured-shot { flex: 1 1 100%; }
+    .featured-shot img { transform: none; }
   }
 </style>
