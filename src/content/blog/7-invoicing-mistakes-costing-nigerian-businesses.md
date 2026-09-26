@@ -104,7 +104,7 @@ Want the complete list in one place? Here's the [full 12-point invoice checklist
 
 The reason these mistakes compound is because you're solving them on an ad-hoc basis for every invoice. What you really need is a **system** — a template that's right once, and then you use it every time. No decisions, no variations, no mistakes.
 
-That's exactly what the [SME Invoice & Payment Tracker Kit](https://selar.com/6w04585s89) does. Professional invoice that automatically: numbers itself, calculates VAT, shows all the right line items, displays your bank details prominently, and tracks what's paid and what's overdue. Set it up once, use it forever, and you never make these mistakes again.
+That's exactly what the [SME Invoice & Payment Tracker Kit](/invoice-kit) does. Professional invoice that automatically: numbers itself, calculates VAT, shows all the right line items, displays your bank details prominently, and tracks what's paid and what's overdue. Set it up once, use it forever, and you never make these mistakes again.
 
 ---
 

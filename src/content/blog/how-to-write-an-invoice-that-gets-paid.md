@@ -69,7 +69,7 @@ In other words: if you're a typical small business, **you are not required to us
 
 The truth is that a great invoice looks the same every time, does the maths for you, and leaves nothing out — so you're not rebuilding it from a blank page for every client, and never fumbling a VAT figure or forgetting your account number.
 
-That's exactly what the [SME Invoice & Payment Tracker Kit](https://selar.com/6w04585s89) gives you: a professional, auto-calculating invoice with every element above already in place, plus a payment tracker so you always know who's paid and who hasn't — in Excel or Google Sheets you already have. Set it up once, and getting paid stops being a scramble.
+That's exactly what the [SME Invoice & Payment Tracker Kit](/invoice-kit) gives you: a professional, auto-calculating invoice with every element above already in place, plus a payment tracker so you always know who's paid and who hasn't — in Excel or Google Sheets you already have. Set it up once, and getting paid stops being a scramble.
 
 ---
 

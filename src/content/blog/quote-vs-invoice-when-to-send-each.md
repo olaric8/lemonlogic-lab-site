@@ -84,7 +84,7 @@ If a client pays a retainer upfront (common for consulting or ongoing services),
 
 ## The kit has templates for both
 
-This is exactly why your [SME Invoice & Payment Tracker Kit](https://selar.com/6w04585s89) includes both a professional quote template and a professional invoice template. Because they're different jobs, they should look and feel intentionally different — and they both need to be polished enough that a client's first impression is "this person is organised."
+This is exactly why your [SME Invoice & Payment Tracker Kit](/invoice-kit) includes both a professional quote template and a professional invoice template. Because they're different jobs, they should look and feel intentionally different — and they both need to be polished enough that a client's first impression is "this person is organised."
 
 A quote that looks hastily thrown together kills a deal before you've even started. An invoice that's unclear or missing details delays payment. The kit ensures both are done right, every time, without you rebuilding them from scratch.
 

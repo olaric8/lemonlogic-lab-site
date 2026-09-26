@@ -79,7 +79,7 @@ Most invoices have several lines. You total everything first, *then* apply VAT t
 
 That's the entire calculation, start to finish. It's not complicated — but doing it by hand on every single invoice, and never slipping a digit, is exactly the kind of small repetitive task that eats an afternoon and eventually bites you.
 
-*(That's the reason we built the [SME Invoice & Payment Tracker Kit](https://selar.com/6w04585s89) — you type the price, and it applies the 7.5%, handles discounts, and calculates the total for you. But you can absolutely do it by hand with the formulas above.)*
+*(That's the reason we built the [SME Invoice & Payment Tracker Kit](/invoice-kit) — you type the price, and it applies the 7.5%, handles discounts, and calculates the total for you. But you can absolutely do it by hand with the formulas above.)*
 
 ## How to show VAT on your invoice properly
 
@@ -124,7 +124,7 @@ For the full list of what a compliant invoice needs beyond just VAT, see the [12
 
 VAT in Nigeria is 7.5%, the agency is now the NRS, and the calculation itself is simple once you know the two formulas: add 7.5% on top, or pull it out with ÷107.5. The rest is doing it consistently and showing it clearly on every invoice.
 
-If you'd rather not run that maths by hand every time — invoice after invoice, client after client — that's exactly the tedium the [SME Invoice & Payment Tracker Kit](https://selar.com/6w04585s89) removes. Enter your prices; it does the VAT, the discounts, and the totals for you, in Excel or Google Sheets you already have.
+If you'd rather not run that maths by hand every time — invoice after invoice, client after client — that's exactly the tedium the [SME Invoice & Payment Tracker Kit](/invoice-kit) removes. Enter your prices; it does the VAT, the discounts, and the totals for you, in Excel or Google Sheets you already have.
 
 ---
 

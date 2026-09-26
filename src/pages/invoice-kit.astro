@@ -5,6 +5,52 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   title="SME Invoice & Payment Tracker Kit"
   description="A ready-to-use Excel kit for Nigerian small business owners. Enter your prices — VAT, discounts, and totals calculate themselves."
 >
+<script type="application/ld+json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Product",
+      "name": "SME Invoice & Payment Tracker Kit",
+      "description": "An Excel and Google Sheets kit for Nigerian small businesses that auto-calculates VAT at 7.5%, applies discounts, totals each invoice, and tracks which clients have paid.",
+      "image": "https://lemonlogiclab.com/images/shot_invoice.png",
+      "brand": { "@type": "Brand", "name": "LemonLogic Lab" },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://lemonlogiclab.com/invoice-kit",
+        "priceCurrency": "NGN",
+        "price": "4500",
+        "availability": "https://schema.org/InStock",
+        "seller": { "@type": "Organization", "name": "LemonLogic Lab" }
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do I need Excel?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Excel or Google Sheets both work. No special software required." }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I change the VAT rate?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes — it's one editable cell. Set it to 0% if you're not VAT-registered." }
+        },
+        {
+          "@type": "Question",
+          "name": "Is this a subscription?",
+          "acceptedAnswer": { "@type": "Answer", "text": "No. Pay once, use it for as long as you run your business." }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use it for more than one business?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes — duplicate the file for each business you run." }
+        }
+      ]
+    }
+  ]
+})} />
+
 <div class="ik-page">
 
   <div class="wrap hero">

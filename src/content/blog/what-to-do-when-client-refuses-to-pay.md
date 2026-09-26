@@ -66,7 +66,7 @@ You can't prevent all non-payment, but you can reduce it dramatically:
 
 **Get payment upfront or in stages.** For big projects, ask for 50% upfront and 50% on delivery. For ongoing work, ask for payment weekly or bi-weekly instead of monthly. [This is covered in detail in our guide on getting paid on time](/blog/how-to-get-clients-to-pay-on-time) — read it if you haven't.
 
-**Use a payment system with receipts.** If you use the [SME Invoice & Payment Tracker Kit](https://selar.com/6w04585s89), every invoice is tracked, every payment logged, and you have proof of what was agreed. When you follow up on a late invoice, you have the exact record right there.
+**Use a payment system with receipts.** If you use the [SME Invoice & Payment Tracker Kit](/invoice-kit), every invoice is tracked, every payment logged, and you have proof of what was agreed. When you follow up on a late invoice, you have the exact record right there.
 
 **Be selective about clients.** Some clients are always going to be late. Some will never pay. As you grow, you get to choose. A client who makes you chase payment for three months isn't worth the headache. Fire them professionally and move on.
 

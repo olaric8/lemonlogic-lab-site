@@ -96,7 +96,7 @@ Once you're registered, the practical job is to [calculate VAT correctly on ever
 
 You'll file monthly (even if it's a nil return). You'll track your output VAT (what you collect) and input VAT (what you pay), and remit the difference to the NRS.
 
-If the maths feels tedious — calculating 7.5% on every invoice, tracking who paid what, remembering the filing deadline — that's exactly the friction the [SME Invoice & Payment Tracker Kit](https://selar.com/6w04585s89) removes. You enter your prices; it does the VAT, tracks payments, and reminds you when it's time to file.
+If the maths feels tedious — calculating 7.5% on every invoice, tracking who paid what, remembering the filing deadline — that's exactly the friction the [SME Invoice & Payment Tracker Kit](/invoice-kit) removes. You enter your prices; it does the VAT, tracks payments, and reminds you when it's time to file.
 
 ## If you decide you *don't* need to register
 
