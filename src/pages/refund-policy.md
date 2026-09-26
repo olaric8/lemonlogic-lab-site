@@ -20,7 +20,6 @@ You may request a refund if:
 
 You are **not** eligible for a refund if:
 - More than 14 days have passed since purchase
-- You purchased the kit and did not attempt to use it before requesting a refund
 - You have shared the kit with others or distributed it
 
 ## How to request a refund
@@ -44,7 +43,7 @@ Note: Your bank may take additional time to process the refund. If you don't see
 
 ## Partial refunds
 
-Partial refunds are not offered. Refunds are for the full purchase price only, minus any payment processing fees charged by the payment processor.
+Partial refunds are not offered. Refunds are for the full purchase price.
 
 ## Special circumstances
 

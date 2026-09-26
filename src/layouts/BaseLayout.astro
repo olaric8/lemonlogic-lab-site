@@ -23,7 +23,7 @@ const {
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{title} · LemonLogic Lab</title>
+  <title>{fullTitle || `${title} · LemonLogic Lab`}</title>
   <meta name="description" content={description} />
   <link rel="canonical" href={`https://lemonlogiclab.com${Astro.url.pathname}`} />
   <!-- Open Graph / Social Media Meta Tags -->
@@ -171,6 +171,7 @@ const {
       <a href="/" class="wordmark">LemonLogic <span>Lab</span></a>
       <nav class="site-nav">
         <a href="/blog">Blog</a>
+        <a href="/about">About</a>
         <a href="/invoice-kit">Get the Invoice Kit</a>
       </nav>
     </div>
@@ -191,7 +192,7 @@ const {
         <a href="/disclaimer">Disclaimer</a>
         <a href="/contact">Contact</a>
       </nav>
-      <a href="https://lemonlogicai.com" class="btn-ghost">lemonlogicai.com</a>
+      <a href="https://lemonlogicai.com" class="btn-ghost" target="_blank" rel="noopener">Visit lemonlogicai.com ↗</a>
     </div>
   </footer>
 

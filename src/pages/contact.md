@@ -1,6 +1,6 @@
 ---
 layout: "../layouts/MarkdownLayout.astro"
-title: "Contact LemonLogic Lab"
+title: "Contact"
 description: "Get in touch with LemonLogic Lab for questions about the SME Invoice & Payment Tracker Kit, support, or anything else."
 ---
 

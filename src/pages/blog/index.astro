@@ -7,7 +7,7 @@ const posts = (await getCollection("blog", ({ data }) => !data.draft))
 
 const categories = [...new Set(posts.map((post) => post.data.category))];
 ---
-<BaseLayout title="Blog" description="Practical AI and automation guidance for African SMEs.">
+<BaseLayout title="Blog" fullTitle="Invoicing & Automation Guides for Nigerian SMEs | LemonLogic Lab" description="Practical, no-jargon guides on invoicing, VAT, payment tracking, and automation for Nigerian small businesses — written from real experience running them.">
   <section class="wrap header">
     <h1>The Blog</h1>
     <p>Practical automation and AI guidance for African SMEs — no jargon, no enterprise budgets.</p>

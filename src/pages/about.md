@@ -1,6 +1,6 @@
 ---
 layout: "../layouts/MarkdownLayout.astro"
-title: "About LemonLogic Lab"
+title: "About"
 description: "Who runs LemonLogic Lab, why we built the invoice kit, and why we write about Nigerian SMEs."
 ---
 
