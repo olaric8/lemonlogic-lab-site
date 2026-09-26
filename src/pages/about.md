@@ -6,6 +6,10 @@ description: "Who runs LemonLogic Lab, why we built the invoice kit, and why we 
 
 # About LemonLogic Lab
 
+<div class="founder-photo">
+  <img src="/images/founder-photo.jpg" alt="Eric Adekunle Akindolire, founder of LemonLogic Lab" />
+</div>
+
 ## The person behind this
 
 I'm Eric Adekunle Akindolire, founder of LemonLogic Lab. I run a few businesses — the biggest is LA AutoWorks, a mechanic firm in Lagos that's been operating for over 20 years. I also co-own OK3D (a logistics platform), Andstan Solar (clean energy), Unique Ojali (fashion design), and Accurate Ventures International.
@@ -45,4 +49,4 @@ I read and respond to messages. If you're running a business in Nigeria and deal
 
 ---
 
-**Photo coming soon.**
+

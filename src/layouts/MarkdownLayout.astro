@@ -19,4 +19,9 @@ const { frontmatter } = Astro.props;
   .markdown-page :global(strong) { font-weight: 700; }
   .markdown-page :global(a) { color: var(--forest); text-decoration: underline; }
   .markdown-page :global(hr) { border: none; border-top: 1px dashed var(--gridline-dark); margin: 40px 0; }
+  .markdown-page :global(.founder-photo) { margin: 24px 0 32px; }
+  .markdown-page :global(.founder-photo img) {
+    width: 140px; height: 140px; border-radius: 50%; object-fit: cover;
+    border: 2px solid var(--ink); box-shadow: 5px 5px 0 var(--lemon);
+  }
 </style>
