@@ -94,6 +94,8 @@ The best protection is prevention — payment upfront, clear agreements, payment
 
 Most importantly: your time and energy are more valuable than any single late-paying client. Protect them fiercely.
 
+Prevention helps too: a [short written agreement before the work starts](/blog/do-you-need-a-contract-before-starting-work) gives you something firm to point to.
+
 ---
 
 *This guide is general information about payment recovery in Nigeria, not legal advice. Debt recovery laws vary by state and case. Always consult a lawyer licensed in your state before taking legal action.*

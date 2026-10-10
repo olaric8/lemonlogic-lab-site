@@ -88,6 +88,8 @@ This is exactly why your [SME Invoice & Payment Tracker Kit](/invoice-kit) inclu
 
 A quote that looks hastily thrown together kills a deal before you've even started. An invoice that's unclear or missing details delays payment. The kit ensures both are done right, every time, without you rebuilding them from scratch.
 
+Once a client accepts your quote, protect it with a short written agreement. See [do you need a contract before you start work?](/blog/do-you-need-a-contract-before-starting-work)
+
 ---
 
 *This guide is general business information for Nigerian SMEs. Always confirm your specific invoicing and payment obligations with your accountant or the NRS if you're VAT-registered.*

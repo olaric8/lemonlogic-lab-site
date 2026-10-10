@@ -118,6 +118,8 @@ For a real example of tightening up recurring client billing, see our case study
 
 The best way to avoid all of this? [Send a clear invoice with a firm due date](/blog/how-to-write-an-invoice-that-gets-paid), agree on payment terms upfront, and make paying you as frictionless as possible. Most late payments start with ambiguous terms or unclear payment details.
 
+The easiest payment problems to solve are the ones you prevent. Read [why a simple written agreement matters before you start work](/blog/do-you-need-a-contract-before-starting-work).
+
 ---
 
 *This guide is general business advice for Nigerian SMEs. Always know your legal rights around late payments in your jurisdiction, and escalate to a lawyer if a client refuses to pay a legitimate invoice.*

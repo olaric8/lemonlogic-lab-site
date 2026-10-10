@@ -138,6 +138,8 @@ Set your price using cost as the floor and value as the ceiling. Charge what you
 
 Once you've set your price and confidently quoted it, the real work begins: delivering value that justifies it. That's where you build a reputation and attract clients who pay on time and refer others.
 
+Once you've settled on a price, put it in writing. Here's [what a simple agreement should cover](/blog/do-you-need-a-contract-before-starting-work).
+
 ---
 
 *This is general business guidance for Nigerian SMEs. Every business is different, and pricing should reflect your specific costs, market position, and value delivery. Talk to your accountant about tax implications of your pricing model.*
