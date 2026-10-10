@@ -71,6 +71,8 @@ You don't need a lawyer for every job. A clear one-page agreement, confirmed by 
 
 If you want invoicing and payment tracking handled in one place once the agreement is signed, that's what the [SME Invoice & Payment Tracker Kit](/invoice-kit) is for: it keeps your invoices consistent and shows at a glance who has paid.
 
+Contracts carry more weight when the business behind them is registered. See [CAC registration: do you actually need it?](/blog/cac-registration-do-you-need-to-register-your-business)
+
 ---
 
 *This article is general business information, not legal advice. Contract requirements can vary by situation, so consult a qualified lawyer for anything significant.*

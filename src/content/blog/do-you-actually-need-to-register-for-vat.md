@@ -108,6 +108,8 @@ VAT registration in Nigeria isn't a one-size-fits-all decision. It depends on yo
 
 Once you *are* registered, the work is mostly routine: calculate the VAT, show it on every invoice, track what's paid, file monthly. The framework doesn't change; it's just doing it consistently and accurately.
 
+VAT registration is separate from registering your business. For the CAC side, read [do you actually need to register your business?](/blog/cac-registration-do-you-need-to-register-your-business)
+
 ---
 
 *This guide is general information about Nigerian tax registration, not tax or legal advice. Tax rules are complex and still being clarified in 2026; always confirm your specific obligations with the NRS (nrs.gov.ng) or a qualified tax professional.*

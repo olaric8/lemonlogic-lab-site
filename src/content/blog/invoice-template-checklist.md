@@ -97,6 +97,8 @@ If building this checklist into a template from scratch feels like a lot, that's
 
 Whether you use a ready-made kit or build your own, the goal is the same: an invoice complete enough that there's no reason for anyone to sit on it.
 
+Not sure what your registration number should be? See [CAC registration: do you actually need to register your business?](/blog/cac-registration-do-you-need-to-register-your-business)
+
 ---
 
 *This checklist reflects standard invoicing practices for Nigerian SMEs as of September 2026. For VAT registration thresholds and compliance requirements specific to your business, consult a qualified accountant or the NRS directly.*
