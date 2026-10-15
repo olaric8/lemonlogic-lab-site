@@ -106,6 +106,8 @@ The reason these mistakes compound is because you're solving them on an ad-hoc b
 
 That's exactly what the [SME Invoice & Payment Tracker Kit](/invoice-kit) does. Professional invoice that automatically: numbers itself, calculates VAT, shows all the right line items, displays your bank details prominently, and tracks what's paid and what's overdue. Set it up once, use it forever, and you never make these mistakes again.
 
+Not sure what late payment terms you can set? See [are late payment fees legal in Nigeria?](/blog/late-payment-fees-nigeria-what-you-can-charge)
+
 ---
 
 *This guide is general business information. Always confirm your specific invoicing obligations with the NRS or your accountant.*

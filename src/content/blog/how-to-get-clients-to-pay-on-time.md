@@ -120,6 +120,8 @@ The best way to avoid all of this? [Send a clear invoice with a firm due date](/
 
 The easiest payment problems to solve are the ones you prevent. Read [why a simple written agreement matters before you start work](/blog/do-you-need-a-contract-before-starting-work).
 
+Wondering whether you can charge extra when a client is late? Read [are late payment fees legal in Nigeria?](/blog/late-payment-fees-nigeria-what-you-can-charge)
+
 ---
 
 *This guide is general business advice for Nigerian SMEs. Always know your legal rights around late payments in your jurisdiction, and escalate to a lawyer if a client refuses to pay a legitimate invoice.*

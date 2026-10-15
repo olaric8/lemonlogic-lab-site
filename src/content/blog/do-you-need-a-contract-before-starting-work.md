@@ -73,6 +73,8 @@ If you want invoicing and payment tracking handled in one place once the agreeme
 
 Contracts carry more weight when the business behind them is registered. See [CAC registration: do you actually need it?](/blog/cac-registration-do-you-need-to-register-your-business)
 
+Late payment terms belong in your agreement. Here's [what you can actually charge](/blog/late-payment-fees-nigeria-what-you-can-charge).
+
 ---
 
 *This article is general business information, not legal advice. Contract requirements can vary by situation, so consult a qualified lawyer for anything significant.*
