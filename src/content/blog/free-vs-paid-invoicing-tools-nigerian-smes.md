@@ -193,6 +193,8 @@ You don't need expensive software. You need a system that works and doesn't cost
 
 Choose based on what you value more: saving money or saving time. If you invoice frequently, saving time is cheaper.
 
+Once invoicing is sorted, keep your wider records tidy too. See [simple bookkeeping for Nigerian SMEs](/blog/simple-bookkeeping-for-nigerian-smes).
+
 ---
 
 *This guide covers invoicing tools available to Nigerian businesses as of September 2026. Tool features and pricing change; check each tool's website for current details.*

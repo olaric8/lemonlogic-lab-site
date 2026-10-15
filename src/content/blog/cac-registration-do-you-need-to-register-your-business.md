@@ -78,6 +78,8 @@ You don't have to register on day one. But the moment a client, a bank or a bigg
 
 Whatever your registration status, a consistent invoicing system helps. The [SME Invoice & Payment Tracker Kit](/invoice-kit) gives you a professional invoice with a place for all your business details, VAT calculated automatically, and a tracker so you know who has paid.
 
+After registering, keep your finances organised with a [simple monthly bookkeeping routine](/blog/simple-bookkeeping-for-nigerian-smes).
+
 ---
 
 *This article is general information, not legal or tax advice. Registration requirements, fees and procedures change, so confirm current details with the CAC, the tax authority or a qualified professional.*

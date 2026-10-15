@@ -126,6 +126,8 @@ VAT in Nigeria is 7.5%, the agency is now the NRS, and the calculation itself is
 
 If you'd rather not run that maths by hand every time — invoice after invoice, client after client — that's exactly the tedium the [SME Invoice & Payment Tracker Kit](/invoice-kit) removes. Enter your prices; it does the VAT, the discounts, and the totals for you, in Excel or Google Sheets you already have.
 
+Accurate VAT depends on accurate records. Here's a [simple monthly bookkeeping routine](/blog/simple-bookkeeping-for-nigerian-smes) for small businesses.
+
 ---
 
 *This guide is general information, not tax advice, and reflects the Nigeria Tax Act 2025 as it stands in 2026. Tax rules change, and some 2026 figures are still being clarified — always confirm your specific obligations with the NRS or a qualified accountant.*
