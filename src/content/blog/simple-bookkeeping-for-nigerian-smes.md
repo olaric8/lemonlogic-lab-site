@@ -78,6 +78,8 @@ A simple monthly routine handles your day-to-day records. An accountant is worth
 
 The easier it is to record, the more likely you are to do it. The [SME Invoice & Payment Tracker Kit](/invoice-kit) calculates VAT on every invoice and shows at a glance which invoices are paid and which are outstanding, which covers two of the six numbers above without extra effort.
 
+Invoices and receipts work together as your record of money in. See [receipts vs invoices](/blog/receipts-vs-invoices-do-you-need-both).
+
 ---
 
 *This article is general business information, not accounting or tax advice. Record-keeping requirements vary by business, so confirm what applies to you with a qualified accountant or the relevant authority.*

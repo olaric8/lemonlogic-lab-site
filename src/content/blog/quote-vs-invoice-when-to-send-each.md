@@ -90,6 +90,8 @@ A quote that looks hastily thrown together kills a deal before you've even start
 
 Once a client accepts your quote, protect it with a short written agreement. See [do you need a contract before you start work?](/blog/do-you-need-a-contract-before-starting-work)
 
+Once the client pays, they'll expect proof. See [receipts vs invoices: do you need both?](/blog/receipts-vs-invoices-do-you-need-both)
+
 ---
 
 *This guide is general business information for Nigerian SMEs. Always confirm your specific invoicing and payment obligations with your accountant or the NRS if you're VAT-registered.*

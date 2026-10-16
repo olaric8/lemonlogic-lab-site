@@ -99,6 +99,8 @@ Whether you use a ready-made kit or build your own, the goal is the same: an inv
 
 Not sure what your registration number should be? See [CAC registration: do you actually need to register your business?](/blog/cac-registration-do-you-need-to-register-your-business)
 
+An invoice requests payment; a receipt confirms it. Here's [when you need each](/blog/receipts-vs-invoices-do-you-need-both).
+
 ---
 
 *This checklist reflects standard invoicing practices for Nigerian SMEs as of September 2026. For VAT registration thresholds and compliance requirements specific to your business, consult a qualified accountant or the NRS directly.*

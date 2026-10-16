@@ -73,6 +73,8 @@ That's exactly what the [SME Invoice & Payment Tracker Kit](/invoice-kit) gives 
 
 Many corporate clients expect a registered business behind the invoice. Here's [when CAC registration makes sense](/blog/cac-registration-do-you-need-to-register-your-business).
 
+After you're paid, what next? Read [receipts vs invoices: do you need both?](/blog/receipts-vs-invoices-do-you-need-both)
+
 ---
 
 *This guide is general business information, not tax or legal advice. Nigeria's tax and e-invoicing rules are changing through 2026–2028; confirm your specific obligations with the NRS or a qualified accountant.*
