@@ -75,6 +75,8 @@ Contracts carry more weight when the business behind them is registered. See [CA
 
 Late payment terms belong in your agreement. Here's [what you can actually charge](/blog/late-payment-fees-nigeria-what-you-can-charge).
 
+Working with a client abroad? Agree the currency and fees upfront. See [invoicing international clients in dollars](/blog/invoicing-international-clients-in-dollars-nigeria).
+
 ---
 
 *This article is general business information, not legal advice. Contract requirements can vary by situation, so consult a qualified lawyer for anything significant.*

@@ -80,6 +80,8 @@ The easier it is to record, the more likely you are to do it. The [SME Invoice &
 
 Invoices and receipts work together as your record of money in. See [receipts vs invoices](/blog/receipts-vs-invoices-do-you-need-both).
 
+Recording payments from abroad? See [invoicing international clients in dollars](/blog/invoicing-international-clients-in-dollars-nigeria).
+
 ---
 
 *This article is general business information, not accounting or tax advice. Record-keeping requirements vary by business, so confirm what applies to you with a qualified accountant or the relevant authority.*

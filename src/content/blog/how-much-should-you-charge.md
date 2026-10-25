@@ -142,6 +142,8 @@ Once you've settled on a price, put it in writing. Here's [what a simple agreeme
 
 You can only price confidently if you know your real costs. See [what to track every month](/blog/simple-bookkeeping-for-nigerian-smes).
 
+Pricing for a foreign client? See [invoicing international clients in dollars](/blog/invoicing-international-clients-in-dollars-nigeria).
+
 ---
 
 *This is general business guidance for Nigerian SMEs. Every business is different, and pricing should reflect your specific costs, market position, and value delivery. Talk to your accountant about tax implications of your pricing model.*

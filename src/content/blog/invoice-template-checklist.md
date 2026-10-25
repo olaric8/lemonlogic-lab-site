@@ -101,6 +101,8 @@ Not sure what your registration number should be? See [CAC registration: do you 
 
 An invoice requests payment; a receipt confirms it. Here's [when you need each](/blog/receipts-vs-invoices-do-you-need-both).
 
+Billing in another currency? Here's [what changes for foreign clients](/blog/invoicing-international-clients-in-dollars-nigeria).
+
 ---
 
 *This checklist reflects standard invoicing practices for Nigerian SMEs as of September 2026. For VAT registration thresholds and compliance requirements specific to your business, consult a qualified accountant or the NRS directly.*
